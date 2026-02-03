@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=65", "wheel>=0.38"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aether-re"
+version = "2.0.0"
+description = "Generic reverse engineering toolkit – Ghidra headless, Frida tracing, binary analysis, decompilation post-processing"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "Analog74"}]
+keywords = ["reverse-engineering", "ghidra", "frida", "decompilation", "binary-analysis", "macho"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Disassemblers",
+    "Topic :: Security",
+    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "rich >= 13.7",
+    "pyyaml >= 6.0",
+]
+
+[project.optional-dependencies]
+frida = ["frida-tools >= 12.0"]
+imaging = ["pillow >= 10.0"]
+dev = [
+    "ruff >= 0.6",
+    "mypy >= 1.11",
+    "pytest >= 8.3",
+    "pytest-cov >= 5.0",
+]
+
+[project.scripts]
+aether-reverse = "bin.reverse:main"
+aether-trace = "bin.trace:main"
+aether-analyze = "analysis.analyze_call_graph:main"
+
+[project.urls]
+Homepage = "https://github.com/Analog74/Aether_Reversal_Engine"
+Repository = "https://github.com/Analog74/Aether_Reversal_Engine"
+Issues = "https://github.com/Analog74/Aether_Reversal_Engine/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["factory*", "analysis*", "capture*", "fixup*", "bin*", "cli*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+select = ["E", "F", "W", "I", "PL", "UP", "B", "SIM"]

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Project-specific – never commit outputs
+targets/
+*.log
+ghidra.log
+decompiled_real/
+*.jsonl
+*.dylib
+*.so
+*.dll
+
+# macOS
+.DS_Store
