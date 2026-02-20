@@ -43,6 +43,8 @@ from dataclasses import dataclass, field, asdict
 from pathlib import Path
 from typing import Optional, Any
 
+from factory.core.progress import Heartbeat, StatusWriter
+
 # Schema version for BUNDLE_INDEX.json format
 SCHEMA_VERSION = 1
 
@@ -273,12 +275,25 @@ def inventory_bundle(
     output_dir = output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    status_json_path = output_dir / "bundle_status.json"
-    status_txt_path = output_dir / "bundle_status.txt"
+    status_writer = StatusWriter(
+        stage="bundle",
+        target=str(bundle_root.name),
+        cache_dir=output_dir,
+        use_json=True,
+    )
+    heartbeat = Heartbeat(
+        "bundle",
+        target=str(bundle_root.name),
+        interval_sec=heartbeat_interval,
+        env_prefix="BUNDLE",
+    )
+    status_json_path = status_writer.status_file
+    status_txt_path = output_dir / f"bundle_status_{bundle_root.name.replace('/', '_').replace(' ', '_')}.txt"
     index_path = output_dir / "BUNDLE_INDEX.json"
     
     # Collect all files first (for progress tracking)
     print(f"[bundle] run_id={run_id} scanning {bundle_root}", file=sys.stderr)
+    status_writer.set_running()
     all_files: list[Path] = []
     scan_errors: list[tuple[str, str]] = []
     
@@ -304,8 +319,7 @@ def inventory_bundle(
     records: list[FileRecord] = []
     files_done = 0
     bytes_done = 0
-    last_heartbeat = time.time()
-    
+
     extension_counts: dict[str, int] = defaultdict(int)
     kind_counts: dict[str, int] = defaultdict(int)
     kind_bytes: dict[str, int] = defaultdict(int)
@@ -416,35 +430,29 @@ def inventory_bundle(
         
         files_done += 1
         bytes_done += size_bytes
-        
-        # Heartbeat
+
+        # Heartbeat + status update (status written only when heartbeat fires)
         now = time.time()
-        if now - last_heartbeat >= heartbeat_interval:
-            elapsed = now - start_time
-            pct_files = 100.0 * files_done / total_files if total_files else 0
-            pct_bytes = 100.0 * bytes_done / total_bytes if total_bytes else 0
-            print(
-                f"[bundle] run_id={run_id} | {elapsed:.0f}s | "
-                f"files: {files_done}/{total_files} ({pct_files:.1f}%) | "
-                f"bytes: {bytes_done / 1024 / 1024:.1f}/{total_bytes / 1024 / 1024:.1f} MB ({pct_bytes:.1f}%) | "
-                f"{relative_path[:60]}",
-                file=sys.stderr,
+        elapsed = now - start_time
+        pct_files = 100.0 * files_done / total_files if total_files else 0
+        pct_bytes = 100.0 * bytes_done / total_bytes if total_bytes else 0
+        _hb_before = heartbeat.last_heartbeat
+        heartbeat.emit(
+            files=f"{files_done}/{total_files} ({pct_files:.1f}%)",
+            mb=f"{bytes_done / 1024 / 1024:.1f}/{total_bytes / 1024 / 1024:.1f}",
+        )
+        if heartbeat.last_heartbeat != _hb_before:
+            # Heartbeat fired — also write the JSON status file
+            status_writer.update_json(
+                run_id=run_id,
+                stage="hashing",
+                files_done=files_done,
+                files_total=total_files,
+                bytes_done=bytes_done,
+                bytes_total=total_bytes,
+                elapsed_seconds=elapsed,
+                current_file=relative_path,
             )
-            
-            # Atomic status update
-            status = {
-                "run_id": run_id,
-                "stage": "hashing",
-                "files_done": files_done,
-                "files_total": total_files,
-                "bytes_done": bytes_done,
-                "bytes_total": total_bytes,
-                "elapsed_seconds": elapsed,
-                "current_file": relative_path,
-            }
-            atomic_write_json(status_json_path, status)
-            atomic_write_text(status_txt_path, f"RUNNING run_id={run_id} {files_done}/{total_files} files")
-            last_heartbeat = now
     
     ended_at = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     
@@ -504,7 +512,7 @@ def inventory_bundle(
     # Write final output
     elapsed = time.time() - start_time
     atomic_write_json(index_path, asdict(index))
-    atomic_write_text(status_txt_path, f"COMPLETED run_id={run_id} {total_files} files in {elapsed:.1f}s")
+    status_writer.set_completed(exit_code=0)
     
     print(
         f"[bundle] run_id={run_id} COMPLETE | {elapsed:.1f}s | "

@@ -1,12 +1,13 @@
-# Created: 2026-01-07 05:05 UTC • Last Modified: 2026-01-08 09:15 UTC
+# Created: 2026-01-07 05:05 UTC • Last Modified: 2026-02-20 00:00 UTC
 import hashlib
 import os
 import re
-import select
 import subprocess
 import time
 from collections import Counter
 from pathlib import Path
+
+from factory.core.progress import Heartbeat
 
 
 def _safe_project_name(binary_path: Path) -> str:
@@ -20,7 +21,8 @@ def analyze_binary(binary_path, target_dir):
     binary_path = Path(binary_path)
     target_dir = Path(target_dir)
 
-    ghidra_path = Path("factory/tools/ghidra")
+    _repo_root = Path(__file__).parents[2]
+    ghidra_path = _repo_root / "factory" / "tools" / "ghidra"
     if not ghidra_path.exists():
         raise ValueError("Ghidra not found. Run ensure_tools() first.")
 
@@ -31,6 +33,7 @@ def analyze_binary(binary_path, target_dir):
     project_dir.mkdir(parents=True, exist_ok=True)
     project_name = _safe_project_name(binary_path)
 
+    _scripts_path = Path(__file__).parents[2] / "factory" / "ghidra_scripts"
     cmd = [
         str(ghidra_path / "support/analyzeHeadless"),
         str(project_dir),
@@ -41,12 +44,13 @@ def analyze_binary(binary_path, target_dir):
         "ExportEverything.java",
         str(decompiled_dir),
         "-scriptPath",
-        "factory/ghidra_scripts",
+        str(_scripts_path),
         "-deleteProject",
     ]
 
     start = time.monotonic()
-    
+    heartbeat = Heartbeat("ghidra", target=binary_path.name, interval_sec=60.0, env_prefix="GHIDRA")
+
     # Create log files for debugging
     log_dir = target_dir / "cache"
     stdout_log = log_dir / f"ghidra_stdout_{binary_path.name}.log"
@@ -62,7 +66,6 @@ def analyze_binary(binary_path, target_dir):
         bufsize=1
     )
     
-    next_heartbeat = start + 60.0
     warning_counter = Counter()
     last_warnings = []
     loop_threshold = 100  # Kill if same warning repeats this many times
@@ -121,10 +124,7 @@ def analyze_binary(binary_path, target_dir):
             except (IOError, ValueError):
                 pass  # Non-blocking read, no data available
 
-            if now >= next_heartbeat:
-                elapsed_s = now - start
-                print(f"[ghidra] still running ({elapsed_s/60.0:.1f} min): {binary_path.name}", flush=True)
-                next_heartbeat = now + 60.0
+            heartbeat.emit()
 
             time.sleep(0.1)
     finally:
