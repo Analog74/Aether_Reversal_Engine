@@ -118,7 +118,7 @@ export GHIDRA_HOME=/Applications/ghidra_11.0_PUBLIC
 ## Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/my-feature`)
+2. Work directly on `main` (no feature branches unless explicitly discussed)
 3. Run tests (`pytest`)
 4. Submit a pull request
 
