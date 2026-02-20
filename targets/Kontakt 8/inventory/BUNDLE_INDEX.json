@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.1.0",
+  "run_id": "b338d150",
+  "bundle_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Kontakt 8/bundle",
+  "bundle_root_realpath": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Kontakt 8/bundle",
+  "started_at": "2026-02-07T18:57:09Z",
+  "ended_at": "2026-02-07T18:57:10Z",
+  "args": {
+    "mode": "ingest",
+    "bundle_root": "targets/Kontakt 8/bundle",
+    "output_dir": null,
+    "max_hash_bytes": null,
+    "skip_hash_large": false,
+    "hash_all": true,
+    "large_threshold": 104857600,
+    "require_blake3": true,
+    "allow_sha256": false
+  },
+  "hash_algo_default": "blake3",
+  "files": [
+    {
+      "relative_path": "Contents/Info.plist",
+      "size_bytes": 4350,
+      "hash": "c8a774725be1e5aa097f553f94c7f911cbd6f7aadfe2be80003efe480786c48d",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "metadata",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/PkgInfo",
+      "size_bytes": 8,
+      "hash": "fec815775482e7c93e0d93279cf860fbe264c90beec6ba8934323fe6784dfa5f",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "metadata",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/DEU.lproj/HELP_TAGS.mo",
+      "size_bytes": 260096,
+      "hash": "3307b6c20f98973824557837c0e9706e8f54b92f7244babeea13a1eb7fd665ca",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/DEU.lproj/application.mo",
+      "size_bytes": 562,
+      "hash": "1994ee363c16f764a41b1e02025c783b928e957655960724bb9eac951ec461f6",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/ENG.lproj/HELP_TAGS.mo",
+      "size_bytes": 231920,
+      "hash": "32f44f852e457c5537b976a5718f9f851c6f2cc9b54fea4c2b875305339d711c",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/ENG.lproj/application.mo",
+      "size_bytes": 943,
+      "hash": "04e856839c1079b5fc6aaa12189226251321547e67de4a7d041364e2d690096d",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/FRA.lproj/HELP_TAGS.mo",
+      "size_bytes": 269021,
+      "hash": "39166322e30e4c072f2ed6b047d32cf36d2a642ccd7caf6ec7a03ee228e9cd6b",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/FRA.lproj/application.mo",
+      "size_bytes": 499,
+      "hash": "866ad3b2d1f84b882454000a303e76203315193d99c83291797919c24f2b6cd4",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/JPN.lproj/HELP_TAGS.mo",
+      "size_bytes": 292228,
+      "hash": "5d5f1fd5bb5648fe406296c6033c26579caaa83162abb7f59c8d18ee094cf200",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/JPN.lproj/application.mo",
+      "size_bytes": 984,
+      "hash": "92b6c5a05f15638dca11a4a37f3a18680828af4d3f01a0d8e11482b7e2d86f1d",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/LanguageNames.mo",
+      "size_bytes": 542,
+      "hash": "28a6818af065ce957b37fca41ee3cb76837df7fc7f19de8ea8e01cd9e61c9b59",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/SPA.lproj/HELP_TAGS.mo",
+      "size_bytes": 270781,
+      "hash": "358b2034705f3c6117b5fc2c890ff97f30af0c0ba46f20a93fe177941d2a628d",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/SPA.lproj/application.mo",
+      "size_bytes": 549,
+      "hash": "2d2e6ebd4ea1105a3c818f14e546e5286dd79a55efa19492e6260558512a1f98",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "other",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/kontakt.icns",
+      "size_bytes": 64074,
+      "hash": "2a0e71e03e04cb96232d1d0deb00623ae9096f05e79155acfba8fe52d443b896",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "icon",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/ncw.icns",
+      "size_bytes": 13305,
+      "hash": "cb4381174183fabeddd9b355b3f71c119d113933c27913afdcbcf4f1556fcb3e",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "icon",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/nkb.icns",
+      "size_bytes": 48944,
+      "hash": "d4b0fbdea969b6909e10404db5c58fdc3d249f8b79ceb0a26e6e3d0c3fe1485a",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "icon",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/nki.icns",
+      "size_bytes": 52925,
+      "hash": "e3a0ba22dd3791a1b11f09fcaa1d68074c768b42ab9323d88114f8890714a1f1",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "icon",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/nkm.icns",
+      "size_bytes": 44833,
+      "hash": "d7f36dfa2bf8da00a952369a7a476aa4e709cc38da75468f7d5e062b60242358",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "icon",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/nkp.icns",
+      "size_bytes": 46929,
+      "hash": "5c0e21d76bf7edb282957979787c19128d2c64b898f8c0143340402e4fdd43ab",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "icon",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/nks.icns",
+      "size_bytes": 48799,
+      "hash": "804422e41d80eea6a68f2cdc06a624d08d4d8713c01c87b09d73f0db70188ab8",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "icon",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/Resources/nksn.icns",
+      "size_bytes": 52430,
+      "hash": "d382c1e6761ed8fa76769e1f2169a9ae8889ace848e2998ff07d329fd0c42d72",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "icon",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    },
+    {
+      "relative_path": "Contents/_CodeSignature/CodeResources",
+      "size_bytes": 7850,
+      "hash": "c905877f1ccdce0e72dd2487c1df1b33788ca023a33d8421e82030a12f8722f0",
+      "hash_algo": "blake3",
+      "hash_skipped": false,
+      "hash_skip_reason": null,
+      "kind": "metadata",
+      "is_symlink": false,
+      "symlink_target": null,
+      "symlink_external": false,
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_files": 22,
+    "total_bytes": 1712572,
+    "files_hashed": 22,
+    "files_hash_skipped": 0,
+    "files_with_errors": 0,
+    "hash_algo_counts": {
+      "blake3": 22
+    },
+    "symlinks": 0,
+    "symlinks_external": 0,
+    "extension_histogram": {
+      "(none)": 2,
+      ".icns": 8,
+      ".mo": 11,
+      ".plist": 1
+    },
+    "kind_counts": {
+      "icon": 8,
+      "metadata": 3,
+      "other": 11
+    },
+    "kind_bytes": {
+      "icon": 372239,
+      "metadata": 12208,
+      "other": 1328125
+    },
+    "top_largest": [
+      {
+        "relative_path": "Contents/Resources/JPN.lproj/HELP_TAGS.mo",
+        "size_bytes": 292228,
+        "kind": "other"
+      },
+      {
+        "relative_path": "Contents/Resources/SPA.lproj/HELP_TAGS.mo",
+        "size_bytes": 270781,
+        "kind": "other"
+      },
+      {
+        "relative_path": "Contents/Resources/FRA.lproj/HELP_TAGS.mo",
+        "size_bytes": 269021,
+        "kind": "other"
+      },
+      {
+        "relative_path": "Contents/Resources/DEU.lproj/HELP_TAGS.mo",
+        "size_bytes": 260096,
+        "kind": "other"
+      },
+      {
+        "relative_path": "Contents/Resources/ENG.lproj/HELP_TAGS.mo",
+        "size_bytes": 231920,
+        "kind": "other"
+      },
+      {
+        "relative_path": "Contents/Resources/kontakt.icns",
+        "size_bytes": 64074,
+        "kind": "icon"
+      },
+      {
+        "relative_path": "Contents/Resources/nki.icns",
+        "size_bytes": 52925,
+        "kind": "icon"
+      },
+      {
+        "relative_path": "Contents/Resources/nksn.icns",
+        "size_bytes": 52430,
+        "kind": "icon"
+      },
+      {
+        "relative_path": "Contents/Resources/nkb.icns",
+        "size_bytes": 48944,
+        "kind": "icon"
+      },
+      {
+        "relative_path": "Contents/Resources/nks.icns",
+        "size_bytes": 48799,
+        "kind": "icon"
+      },
+      {
+        "relative_path": "Contents/Resources/nkp.icns",
+        "size_bytes": 46929,
+        "kind": "icon"
+      },
+      {
+        "relative_path": "Contents/Resources/nkm.icns",
+        "size_bytes": 44833,
+        "kind": "icon"
+      },
+      {
+        "relative_path": "Contents/Resources/ncw.icns",
+        "size_bytes": 13305,
+        "kind": "icon"
+      },
+      {
+        "relative_path": "Contents/_CodeSignature/CodeResources",
+        "size_bytes": 7850,
+        "kind": "metadata"
+      },
+      {
+        "relative_path": "Contents/Info.plist",
+        "size_bytes": 4350,
+        "kind": "metadata"
+      },
+      {
+        "relative_path": "Contents/Resources/JPN.lproj/application.mo",
+        "size_bytes": 984,
+        "kind": "other"
+      },
+      {
+        "relative_path": "Contents/Resources/ENG.lproj/application.mo",
+        "size_bytes": 943,
+        "kind": "other"
+      },
+      {
+        "relative_path": "Contents/Resources/DEU.lproj/application.mo",
+        "size_bytes": 562,
+        "kind": "other"
+      },
+      {
+        "relative_path": "Contents/Resources/SPA.lproj/application.mo",
+        "size_bytes": 549,
+        "kind": "other"
+      },
+      {
+        "relative_path": "Contents/Resources/LanguageNames.mo",
+        "size_bytes": 542,
+        "kind": "other"
+      }
+    ],
+    "container_candidates": []
+  }
+}

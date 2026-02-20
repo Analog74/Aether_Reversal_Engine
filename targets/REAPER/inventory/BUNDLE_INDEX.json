@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "run_id": "33dbea08",
+  "bundle_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/REAPER/bundle",
+  "bundle_root_realpath": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/REAPER/bundle",
+  "started_at": "2026-02-19T18:40:26Z",
+  "ended_at": "2026-02-19T18:40:26Z",
+  "args": {
+    "invoked_by": "scripts/ingest_target.py",
+    "hash_policy": "strict"
+  },
+  "hash_algo_default": "blake3",
+  "files": [],
+  "summary": {
+    "total_files": 0,
+    "total_bytes": 0,
+    "files_hashed": 0,
+    "files_hash_skipped": 0,
+    "files_with_errors": 0,
+    "hash_algo_counts": {},
+    "symlinks": 0,
+    "symlinks_external": 0,
+    "extension_histogram": {},
+    "kind_counts": {},
+    "kind_bytes": {},
+    "top_largest": [],
+    "container_candidates": []
+  }
+}

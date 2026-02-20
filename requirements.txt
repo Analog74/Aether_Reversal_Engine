@@ -1,0 +1,13 @@
+# Core deps are declared in pyproject.toml [project.dependencies]
+# This file covers dev/CI extras not in pyproject optional-deps
+
+pytest>=7.0
+rich>=13.7
+pyyaml>=6.0
+
+# Required for --mode ingest in factory/core/bundle_inventory.py
+# Without this, only --mode explore (with --allow-sha256) is available
+blake3>=0.3
+
+# JSON Schema validation for ingestion pipeline + CI checks
+jsonschema>=4.0

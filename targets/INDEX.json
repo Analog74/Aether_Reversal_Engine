@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "target": "3Vial OS.exe",
+      "binary_name": "3Vial OS.exe",
+      "binary_path": "SourceFiles/3Vial OS.exe",
+      "exec_dir": "targets/3Vial OS.exe/exec/3Vial OS.exe",
+      "decompiled_cpp": 146,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Analog Lab V",
+      "binary_name": "Analog Lab V",
+      "binary_path": "SourceFiles/Analog Lab V.app/Contents/MacOS/Analog Lab V",
+      "exec_dir": "targets/Analog Lab V/exec/Analog Lab V",
+      "decompiled_cpp": 9953,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "JavaNativeFoundation",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/JavaNativeFoundation",
+      "exec_dir": "targets/Bitwig Studio/exec/JavaNativeFoundation",
+      "decompiled_cpp": 230,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "libusb4java.dylib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/cp/org/usb4java/darwin-aarch64/libusb4java.dylib",
+      "exec_dir": "targets/Bitwig Studio/exec/libusb4java.dylib",
+      "decompiled_cpp": 642,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "libusb4java.dylib__1316e754",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/cp/org/usb4java/darwin-x86-64/libusb4java.dylib",
+      "exec_dir": "targets/Bitwig Studio/exec/libusb4java.dylib__1316e754",
+      "decompiled_cpp": 642,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "libLTO.dylib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/libLTO.dylib",
+      "exec_dir": "targets/Bitwig Studio/exec/libLTO.dylib",
+      "decompiled_cpp": 47069,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "libRemarks.dylib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/libRemarks.dylib",
+      "exec_dir": "targets/Bitwig Studio/exec/libRemarks.dylib",
+      "decompiled_cpp": 649,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "libbitwig-jni.jnilib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/libbitwig-jni.jnilib",
+      "exec_dir": "targets/Bitwig Studio/exec/libbitwig-jni.jnilib",
+      "decompiled_cpp": 19122,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "libsqlitejdbc.jnilib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/libsqlitejdbc.jnilib",
+      "exec_dir": "targets/Bitwig Studio/exec/libsqlitejdbc.jnilib",
+      "decompiled_cpp": 2357,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "BitwigAudioEngine-ARM64-NEON",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/Bitwig Audio Engine ARM64-NEON.app/Contents/MacOS/BitwigAudioEngine-ARM64-NEON",
+      "exec_dir": "targets/Bitwig Studio/exec/BitwigAudioEngine-ARM64-NEON",
+      "decompiled_cpp": 34928,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "BitwigAudioEngine-X64-AVX2",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/Bitwig Audio Engine X64-AVX2.app/Contents/MacOS/BitwigAudioEngine-X64-AVX2",
+      "exec_dir": "targets/Bitwig Studio/exec/BitwigAudioEngine-X64-AVX2",
+      "decompiled_cpp": 26643,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "BitwigPluginHost-ARM64-NEON",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/Bitwig Plug-in Host ARM64-NEON.app/Contents/MacOS/BitwigPluginHost-ARM64-NEON",
+      "exec_dir": "targets/Bitwig Studio/exec/BitwigPluginHost-ARM64-NEON",
+      "decompiled_cpp": 4421,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "BitwigPluginHost-X64-SSE41",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/Bitwig Plug-in Host X64-SSE41.app/Contents/MacOS/BitwigPluginHost-X64-SSE41",
+      "exec_dir": "targets/Bitwig Studio/exec/BitwigPluginHost-X64-SSE41",
+      "decompiled_cpp": 4563,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "BitwigStudio",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/BitwigStudio",
+      "exec_dir": "targets/Bitwig Studio/exec/BitwigStudio",
+      "decompiled_cpp": 458,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio",
+      "binary_name": "BitwigVampHost",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/BitwigVampHost",
+      "exec_dir": "targets/Bitwig Studio/exec/BitwigVampHost",
+      "decompiled_cpp": 1022,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio 6.0 Beta 11",
+      "binary_name": "JavaNativeFoundation",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11/Bitwig Studio.app/Contents/Frameworks/JavaNativeFoundation",
+      "exec_dir": "targets/Bitwig Studio 6.0 Beta 11/exec/JavaNativeFoundation",
+      "decompiled_cpp": 230,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio 6.0 Beta 11",
+      "binary_name": "libusb4java.dylib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11/Bitwig Studio.app/Contents/Frameworks/cp/org/usb4java/darwin-aarch64/libusb4java.dylib",
+      "exec_dir": "targets/Bitwig Studio 6.0 Beta 11/exec/libusb4java.dylib",
+      "decompiled_cpp": 642,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Bitwig Studio 6.0 Beta 11",
+      "binary_name": "libusb4java.dylib__1316e754",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11/Bitwig Studio.app/Contents/Frameworks/cp/org/usb4java/darwin-x86-64/libusb4java.dylib",
+      "exec_dir": "targets/Bitwig Studio 6.0 Beta 11/exec/libusb4java.dylib__1316e754",
+      "decompiled_cpp": 642,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Fugue Machine Rubato",
+      "binary_name": "Fugue Machine Rubato__arm64",
+      "binary_path": "targets/Fugue Machine Rubato/cache/slices/Fugue_Machine_Rubato/Fugue_Machine_Rubato.arm64",
+      "exec_dir": "targets/Fugue Machine Rubato/exec/Fugue Machine Rubato__arm64",
+      "decompiled_cpp": 12929,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Fugue Machine Rubato",
+      "binary_name": "Fugue Machine Rubato__x86_64",
+      "binary_path": "targets/Fugue Machine Rubato/cache/slices/Fugue_Machine_Rubato/Fugue_Machine_Rubato.x86_64",
+      "exec_dir": "targets/Fugue Machine Rubato/exec/Fugue Machine Rubato__x86_64",
+      "decompiled_cpp": 8974,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Fugue Machine Rubato",
+      "binary_name": "FugueMachineRubatoAU__arm64",
+      "binary_path": "targets/Fugue Machine Rubato/cache/slices/FugueMachineRubatoAU/FugueMachineRubatoAU.arm64",
+      "exec_dir": "targets/Fugue Machine Rubato/exec/FugueMachineRubatoAU__arm64",
+      "decompiled_cpp": 11464,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Fugue Machine Rubato",
+      "binary_name": "FugueMachineRubatoAU__x86_64",
+      "binary_path": "targets/Fugue Machine Rubato/cache/slices/FugueMachineRubatoAU/FugueMachineRubatoAU.x86_64",
+      "exec_dir": "targets/Fugue Machine Rubato/exec/FugueMachineRubatoAU__x86_64",
+      "decompiled_cpp": 7668,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Fugue Machine Rubato",
+      "binary_name": "FugueMachineRubatoQuickLookExtension__arm64",
+      "binary_path": "targets/Fugue Machine Rubato/cache/slices/FugueMachineRubatoQuickLookExtension/FugueMachineRubatoQuickLookExtension.arm64",
+      "exec_dir": "targets/Fugue Machine Rubato/exec/FugueMachineRubatoQuickLookExtension__arm64",
+      "decompiled_cpp": 237,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Fugue Machine Rubato",
+      "binary_name": "FugueMachineRubatoQuickLookExtension__x86_64",
+      "binary_path": "targets/Fugue Machine Rubato/cache/slices/FugueMachineRubatoQuickLookExtension/FugueMachineRubatoQuickLookExtension.x86_64",
+      "exec_dir": "targets/Fugue Machine Rubato/exec/FugueMachineRubatoQuickLookExtension__x86_64",
+      "decompiled_cpp": 215,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Komplete Kontrol",
+      "binary_name": "Komplete Kontrol",
+      "binary_path": "SourceFiles/Komplete Kontrol.app/Contents/MacOS/Komplete Kontrol",
+      "exec_dir": "targets/Komplete Kontrol/exec/Komplete Kontrol",
+      "decompiled_cpp": 155920,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Komplete Kontrol",
+      "binary_name": "MaschineLibAVX.dylib",
+      "binary_path": "SourceFiles/Komplete Kontrol.app/Contents/PlugIns/MaschineLibAVX.dylib",
+      "exec_dir": "targets/Komplete Kontrol/exec/MaschineLibAVX.dylib",
+      "decompiled_cpp": 17,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Komplete Kontrol",
+      "binary_name": "MaschineLibAVX2.dylib",
+      "binary_path": "SourceFiles/Komplete Kontrol.app/Contents/PlugIns/MaschineLibAVX2.dylib",
+      "exec_dir": "targets/Komplete Kontrol/exec/MaschineLibAVX2.dylib",
+      "decompiled_cpp": 17,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Kontakt 8",
+      "binary_name": "Kontakt 8",
+      "binary_path": "SourceFiles/Kontakt 8.app/Contents/MacOS/Kontakt 8",
+      "exec_dir": "targets/Kontakt 8/exec/Kontakt 8",
+      "decompiled_cpp": 172003,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Lemur Daemon",
+      "binary_name": "libplist-2.0.3.dylib",
+      "binary_path": "SourceFiles/Lemur Daemon.app/Contents/Frameworks/libplist-2.0.3.dylib",
+      "exec_dir": "targets/Lemur Daemon/exec/libplist-2.0.3.dylib",
+      "decompiled_cpp": 229,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Lemur Daemon",
+      "binary_name": "libusbmuxd-2.0.6.dylib",
+      "binary_path": "SourceFiles/Lemur Daemon.app/Contents/Frameworks/libusbmuxd-2.0.6.dylib",
+      "exec_dir": "targets/Lemur Daemon/exec/libusbmuxd-2.0.6.dylib",
+      "decompiled_cpp": 161,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Lemur Daemon",
+      "binary_name": "Lemur Daemon",
+      "binary_path": "SourceFiles/Lemur Daemon.app/Contents/MacOS/Lemur Daemon",
+      "exec_dir": "targets/Lemur Daemon/exec/Lemur Daemon",
+      "decompiled_cpp": 2441,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Lemur Editor",
+      "binary_name": "libplist-2.0.3.dylib",
+      "binary_path": "SourceFiles/Lemur Editor.app/Contents/Frameworks/libplist-2.0.3.dylib",
+      "exec_dir": "targets/Lemur Editor/exec/libplist-2.0.3.dylib",
+      "decompiled_cpp": 229,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Lemur Editor",
+      "binary_name": "libusbmuxd-2.0.6.dylib",
+      "binary_path": "SourceFiles/Lemur Editor.app/Contents/Frameworks/libusbmuxd-2.0.6.dylib",
+      "exec_dir": "targets/Lemur Editor/exec/libusbmuxd-2.0.6.dylib",
+      "decompiled_cpp": 161,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "Lemur Editor",
+      "binary_name": "Lemur Editor",
+      "binary_path": "SourceFiles/Lemur Editor.app/Contents/MacOS/Lemur Editor",
+      "exec_dir": "targets/Lemur Editor/exec/Lemur Editor",
+      "decompiled_cpp": 4135,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "HexFiend",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/HexFiend.framework/Versions/A/HexFiend",
+      "exec_dir": "targets/MIDI Monitor/exec/HexFiend",
+      "decompiled_cpp": 1520,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "SnoizeMIDI",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/SnoizeMIDI.framework/Versions/A/SnoizeMIDI",
+      "exec_dir": "targets/MIDI Monitor/exec/SnoizeMIDI",
+      "decompiled_cpp": 2067,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "MIDI Monitor",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/SnoizeMIDISpy.framework/Versions/A/Resources/MIDI Monitor.plugin/Contents/MacOS/MIDI Monitor",
+      "exec_dir": "targets/MIDI Monitor/exec/MIDI Monitor",
+      "decompiled_cpp": 113,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "SnoizeMIDISpy",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/SnoizeMIDISpy.framework/Versions/A/SnoizeMIDISpy",
+      "exec_dir": "targets/MIDI Monitor/exec/SnoizeMIDISpy",
+      "decompiled_cpp": 74,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "Autoupdate",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/Autoupdate",
+      "exec_dir": "targets/MIDI Monitor/exec/Autoupdate",
+      "decompiled_cpp": 617,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "Sparkle",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/Sparkle",
+      "exec_dir": "targets/MIDI Monitor/exec/Sparkle",
+      "decompiled_cpp": 1026,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "Updater",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/MacOS/Updater",
+      "exec_dir": "targets/MIDI Monitor/exec/Updater",
+      "decompiled_cpp": 233,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "Downloader",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/MacOS/Downloader",
+      "exec_dir": "targets/MIDI Monitor/exec/Downloader",
+      "decompiled_cpp": 68,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "Installer",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/MacOS/Installer",
+      "exec_dir": "targets/MIDI Monitor/exec/Installer",
+      "decompiled_cpp": 124,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftAppKit.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftAppKit.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftAppKit.dylib",
+      "decompiled_cpp": 646,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftCore.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCore.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftCore.dylib",
+      "decompiled_cpp": 18060,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftCoreAudio.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreAudio.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftCoreAudio.dylib",
+      "decompiled_cpp": 130,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftCoreData.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreData.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftCoreData.dylib",
+      "decompiled_cpp": 209,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftCoreFoundation.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreFoundation.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftCoreFoundation.dylib",
+      "decompiled_cpp": 9,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftCoreGraphics.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreGraphics.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftCoreGraphics.dylib",
+      "decompiled_cpp": 624,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftCoreImage.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreImage.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftCoreImage.dylib",
+      "decompiled_cpp": 1,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftDarwin.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftDarwin.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftDarwin.dylib",
+      "decompiled_cpp": 436,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftDispatch.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftDispatch.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftDispatch.dylib",
+      "decompiled_cpp": 1130,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftFoundation.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftFoundation.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftFoundation.dylib",
+      "decompiled_cpp": 7266,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftIOKit.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftIOKit.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftIOKit.dylib",
+      "decompiled_cpp": 53,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftMetal.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftMetal.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftMetal.dylib",
+      "decompiled_cpp": 79,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftObjectiveC.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftObjectiveC.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftObjectiveC.dylib",
+      "decompiled_cpp": 83,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftQuartzCore.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftQuartzCore.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftQuartzCore.dylib",
+      "decompiled_cpp": 23,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftXPC.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftXPC.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftXPC.dylib",
+      "decompiled_cpp": 35,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "libswiftos.dylib",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftos.dylib",
+      "exec_dir": "targets/MIDI Monitor/exec/libswiftos.dylib",
+      "decompiled_cpp": 138,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDI Monitor",
+      "binary_name": "MIDI Monitor__da319e5b",
+      "binary_path": "SourceFiles/MIDI Monitor.app/Contents/MacOS/MIDI Monitor",
+      "exec_dir": "targets/MIDI Monitor/exec/MIDI Monitor__da319e5b",
+      "decompiled_cpp": 1073,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDIDesigner",
+      "binary_name": "ConfusionUtilFramework",
+      "binary_path": "SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/ConfusionUtilFramework.framework/ConfusionUtilFramework",
+      "exec_dir": "targets/MIDIDesigner/exec/ConfusionUtilFramework",
+      "decompiled_cpp": 5723,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDIDesigner",
+      "binary_name": "ObjectiveDropboxOfficial",
+      "binary_path": "SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial",
+      "exec_dir": "targets/MIDIDesigner/exec/ObjectiveDropboxOfficial",
+      "decompiled_cpp": 20479,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDIDesigner",
+      "binary_name": "SimpleAlertLib",
+      "binary_path": "SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/SimpleAlertLib.framework/SimpleAlertLib",
+      "exec_dir": "targets/MIDIDesigner/exec/SimpleAlertLib",
+      "decompiled_cpp": 540,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDIDesigner",
+      "binary_name": "ProX",
+      "binary_path": "SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/ProX",
+      "exec_dir": "targets/MIDIDesigner/exec/ProX",
+      "decompiled_cpp": 27613,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MSTUpdater",
+      "binary_name": "MSTUpdater",
+      "binary_path": "SourceFiles/MSTUpdater.app/Contents/MacOS/MSTUpdater",
+      "exec_dir": "targets/MSTUpdater/exec/MSTUpdater",
+      "decompiled_cpp": 4754,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "Cg",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/Cg.framework/Versions/1.0/Cg",
+      "exec_dir": "targets/MediaMaster/exec/Cg",
+      "decompiled_cpp": 4509,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "KlingNetOutput.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/KlingNetOutput.dylib",
+      "exec_dir": "targets/MediaMaster/exec/KlingNetOutput.dylib",
+      "decompiled_cpp": 1008,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "LEDMapperOutput.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/LEDMapperOutput.dylib",
+      "exec_dir": "targets/MediaMaster/exec/LEDMapperOutput.dylib",
+      "decompiled_cpp": 2103,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "Syphon",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/Syphon.framework/Versions/A/Syphon",
+      "exec_dir": "targets/MediaMaster/exec/Syphon",
+      "decompiled_cpp": 293,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "VMIntegrationDLL.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/VMIntegrationDLL.dylib",
+      "exec_dir": "targets/MediaMaster/exec/VMIntegrationDLL.dylib",
+      "decompiled_cpp": 6219,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libavcodec.58.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavcodec.58.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libavcodec.58.dylib",
+      "decompiled_cpp": 12858,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libavdevice.58.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavdevice.58.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libavdevice.58.dylib",
+      "decompiled_cpp": 146,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libavfilter.7.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavfilter.7.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libavfilter.7.dylib",
+      "decompiled_cpp": 3060,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libavformat.58.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavformat.58.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libavformat.58.dylib",
+      "decompiled_cpp": 179,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libavutil.56.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavutil.56.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libavutil.56.dylib",
+      "decompiled_cpp": 880,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libfreeimage-3.17.0.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libfreeimage-3.17.0.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libfreeimage-3.17.0.dylib",
+      "decompiled_cpp": 5855,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libltc.11.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libltc.11.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libltc.11.dylib",
+      "decompiled_cpp": 58,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libmcrypt.4.4.8.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libmcrypt.4.4.8.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libmcrypt.4.4.8.dylib",
+      "decompiled_cpp": 118,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libndi.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libndi.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libndi.dylib",
+      "decompiled_cpp": 2599,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libswresample.3.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libswresample.3.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libswresample.3.dylib",
+      "decompiled_cpp": 531,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libswscale.5.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libswscale.5.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libswscale.5.dylib",
+      "decompiled_cpp": 1367,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "libturbojpeg.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libturbojpeg.dylib",
+      "exec_dir": "targets/MediaMaster/exec/libturbojpeg.dylib",
+      "decompiled_cpp": 1375,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "MediaMaster",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/MacOS/MediaMaster",
+      "exec_dir": "targets/MediaMaster/exec/MediaMaster",
+      "decompiled_cpp": 58292,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "QuartzCLI",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/MacOS/QuartzCLI",
+      "exec_dir": "targets/MediaMaster/exec/QuartzCLI",
+      "decompiled_cpp": 76,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MediaMaster",
+      "binary_name": "crashpad_handler",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/MacOS/crashpad_handler",
+      "exec_dir": "targets/MediaMaster/exec/crashpad_handler",
+      "decompiled_cpp": 1602,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "REAPER",
+      "binary_name": "REAPER",
+      "binary_path": "bundle/Contents/MacOS/REAPER",
+      "exec_dir": "exec/REAPER",
+      "decompiled_cpp": 13927,
+      "has_reports": false,
+      "has_assets": true
+    },
+    {
+      "target": "Reaktor 6",
+      "binary_name": "Reaktor 6",
+      "binary_path": "SourceFiles/Reaktor 6/Reaktor 6.app/Contents/MacOS/Reaktor 6",
+      "exec_dir": "targets/Reaktor 6/exec/Reaktor 6",
+      "decompiled_cpp": 71900,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "TouchOSC",
+      "binary_name": "Autoupdate",
+      "binary_path": "SourceFiles/TouchOSC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate",
+      "exec_dir": "targets/TouchOSC/exec/Autoupdate",
+      "decompiled_cpp": 424,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "TouchOSC",
+      "binary_name": "fileop",
+      "binary_path": "SourceFiles/TouchOSC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop",
+      "exec_dir": "targets/TouchOSC/exec/fileop",
+      "decompiled_cpp": 197,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "TouchOSC",
+      "binary_name": "Sparkle",
+      "binary_path": "SourceFiles/TouchOSC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle",
+      "exec_dir": "targets/TouchOSC/exec/Sparkle",
+      "decompiled_cpp": 1052,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "TouchOSC",
+      "binary_name": "TouchOSC",
+      "binary_path": "SourceFiles/TouchOSC.app/Contents/MacOS/TouchOSC",
+      "exec_dir": "targets/TouchOSC/exec/TouchOSC",
+      "decompiled_cpp": 30524,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "TouchOSC Bridge",
+      "binary_name": "libplist.3.dylib",
+      "binary_path": "SourceFiles/TouchOSC Bridge.app/Contents/Frameworks/libplist.3.dylib",
+      "exec_dir": "targets/TouchOSC Bridge/exec/libplist.3.dylib",
+      "decompiled_cpp": 149,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "TouchOSC Bridge",
+      "binary_name": "libusbmuxd.4.dylib",
+      "binary_path": "SourceFiles/TouchOSC Bridge.app/Contents/Frameworks/libusbmuxd.4.dylib",
+      "exec_dir": "targets/TouchOSC Bridge/exec/libusbmuxd.4.dylib",
+      "decompiled_cpp": 97,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "TouchOSC Bridge",
+      "binary_name": "libxml2.2.dylib",
+      "binary_path": "SourceFiles/TouchOSC Bridge.app/Contents/Frameworks/libxml2.2.dylib",
+      "exec_dir": "targets/TouchOSC Bridge/exec/libxml2.2.dylib",
+      "decompiled_cpp": 2617,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "TouchOSC Bridge",
+      "binary_name": "TouchOSC Bridge",
+      "binary_path": "SourceFiles/TouchOSC Bridge.app/Contents/MacOS/TouchOSC Bridge",
+      "exec_dir": "targets/TouchOSC Bridge/exec/TouchOSC Bridge",
+      "decompiled_cpp": 758,
+      "has_reports": true,
+      "has_assets": true
+    }
+  ]
+}

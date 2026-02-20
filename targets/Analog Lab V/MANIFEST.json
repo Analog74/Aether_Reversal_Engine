@@ -1,0 +1,11 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Analog Lab V",
+  "binaries": [
+    {
+      "binary_name": "Analog Lab V",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Analog Lab V.app/Contents/MacOS/Analog Lab V",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Analog Lab V/exec/Analog Lab V"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Analog Lab V.app"
+}

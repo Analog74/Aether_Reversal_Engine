@@ -1,0 +1,136 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor",
+  "binaries": [
+    {
+      "binary_name": "HexFiend",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/HexFiend.framework/Versions/A/HexFiend",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/HexFiend"
+    },
+    {
+      "binary_name": "SnoizeMIDI",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/SnoizeMIDI.framework/Versions/A/SnoizeMIDI",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/SnoizeMIDI"
+    },
+    {
+      "binary_name": "MIDI Monitor",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/SnoizeMIDISpy.framework/Versions/A/Resources/MIDI Monitor.plugin/Contents/MacOS/MIDI Monitor",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/MIDI Monitor"
+    },
+    {
+      "binary_name": "SnoizeMIDISpy",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/SnoizeMIDISpy.framework/Versions/A/SnoizeMIDISpy",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/SnoizeMIDISpy"
+    },
+    {
+      "binary_name": "Autoupdate",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/Autoupdate",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/Autoupdate"
+    },
+    {
+      "binary_name": "Sparkle",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/Sparkle",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/Sparkle"
+    },
+    {
+      "binary_name": "Updater",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/MacOS/Updater",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/Updater"
+    },
+    {
+      "binary_name": "Downloader",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/MacOS/Downloader",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/Downloader"
+    },
+    {
+      "binary_name": "Installer",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/MacOS/Installer",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/Installer"
+    },
+    {
+      "binary_name": "libswiftAppKit.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftAppKit.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftAppKit.dylib"
+    },
+    {
+      "binary_name": "libswiftCore.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCore.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftCore.dylib"
+    },
+    {
+      "binary_name": "libswiftCoreAudio.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreAudio.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftCoreAudio.dylib"
+    },
+    {
+      "binary_name": "libswiftCoreData.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreData.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftCoreData.dylib"
+    },
+    {
+      "binary_name": "libswiftCoreFoundation.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreFoundation.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftCoreFoundation.dylib"
+    },
+    {
+      "binary_name": "libswiftCoreGraphics.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreGraphics.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftCoreGraphics.dylib"
+    },
+    {
+      "binary_name": "libswiftCoreImage.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftCoreImage.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftCoreImage.dylib"
+    },
+    {
+      "binary_name": "libswiftDarwin.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftDarwin.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftDarwin.dylib"
+    },
+    {
+      "binary_name": "libswiftDispatch.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftDispatch.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftDispatch.dylib"
+    },
+    {
+      "binary_name": "libswiftFoundation.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftFoundation.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftFoundation.dylib"
+    },
+    {
+      "binary_name": "libswiftIOKit.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftIOKit.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftIOKit.dylib"
+    },
+    {
+      "binary_name": "libswiftMetal.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftMetal.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftMetal.dylib"
+    },
+    {
+      "binary_name": "libswiftObjectiveC.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftObjectiveC.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftObjectiveC.dylib"
+    },
+    {
+      "binary_name": "libswiftQuartzCore.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftQuartzCore.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftQuartzCore.dylib"
+    },
+    {
+      "binary_name": "libswiftXPC.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftXPC.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftXPC.dylib"
+    },
+    {
+      "binary_name": "libswiftos.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/Frameworks/libswiftos.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/libswiftos.dylib"
+    },
+    {
+      "binary_name": "MIDI Monitor__da319e5b",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app/Contents/MacOS/MIDI Monitor",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDI Monitor/exec/MIDI Monitor__da319e5b"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDI Monitor.app"
+}

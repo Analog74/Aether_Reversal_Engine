@@ -1,0 +1,26 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/TouchOSC Bridge",
+  "binaries": [
+    {
+      "binary_name": "libplist.3.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/TouchOSC Bridge.app/Contents/Frameworks/libplist.3.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/TouchOSC Bridge/exec/libplist.3.dylib"
+    },
+    {
+      "binary_name": "libusbmuxd.4.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/TouchOSC Bridge.app/Contents/Frameworks/libusbmuxd.4.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/TouchOSC Bridge/exec/libusbmuxd.4.dylib"
+    },
+    {
+      "binary_name": "libxml2.2.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/TouchOSC Bridge.app/Contents/Frameworks/libxml2.2.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/TouchOSC Bridge/exec/libxml2.2.dylib"
+    },
+    {
+      "binary_name": "TouchOSC Bridge",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/TouchOSC Bridge.app/Contents/MacOS/TouchOSC Bridge",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/TouchOSC Bridge/exec/TouchOSC Bridge"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/TouchOSC Bridge.app"
+}

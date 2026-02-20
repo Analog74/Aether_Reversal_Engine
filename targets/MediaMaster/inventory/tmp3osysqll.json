@@ -1,0 +1,10 @@
+{
+  "run_id": "e22c6182",
+  "stage": "hashing",
+  "files_done": 35,
+  "files_total": 55,
+  "bytes_done": 1754963911,
+  "bytes_total": 1774889669,
+  "elapsed_seconds": 31.203096866607666,
+  "current_file": "Contents/Resources/MediaLibrary.dat"
+}

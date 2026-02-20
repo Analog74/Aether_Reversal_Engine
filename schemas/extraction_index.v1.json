@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.local/schemas/extraction_index.v1.json",
+  "title": "EXTRACTION_INDEX.json (v1)",
+  "type": "object",
+  "required": ["schema_version", "binary", "asset_index_rel", "bundle_index_rel", "decompiled_files", "extracted_at", "hash_policy", "warnings"],
+  "properties": {
+    "schema_version": {"type": "integer", "enum": [1]},
+    "binary": {"type": "string"},
+    "asset_index_rel": {"type": "string"},
+    "bundle_index_rel": {"type": "string"},
+    "decompiled_files": {"type": "integer", "minimum": 0},
+    "extracted_at": {"type": "string", "format": "date-time"},
+    "hash_policy": {"type": "string", "enum": ["strict", "compat"]},
+    "warnings": {"type": "array"}
+  },
+  "additionalProperties": true
+}

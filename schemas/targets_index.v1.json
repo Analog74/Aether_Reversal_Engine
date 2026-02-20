@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.local/schemas/targets_index.v1.json",
+  "title": "targets/INDEX.json (v1)",
+  "type": "object",
+  "required": ["schema_version", "entries"],
+  "properties": {
+    "schema_version": {"type": "integer", "enum": [1]},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["target", "binary_name", "exec_dir", "decompiled_cpp"],
+        "properties": {
+          "target": {"type": "string"},
+          "binary_name": {"type": "string"},
+          "binary_path": {"type": "string"},
+          "exec_dir": {"type": "string"},
+          "decompiled_cpp": {"type": "integer", "minimum": 0},
+          "has_reports": {"type": "boolean"},
+          "has_assets": {"type": "boolean"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

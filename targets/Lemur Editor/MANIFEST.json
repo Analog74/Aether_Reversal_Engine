@@ -1,0 +1,21 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Lemur Editor",
+  "binaries": [
+    {
+      "binary_name": "libplist-2.0.3.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Lemur Editor.app/Contents/Frameworks/libplist-2.0.3.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Lemur Editor/exec/libplist-2.0.3.dylib"
+    },
+    {
+      "binary_name": "libusbmuxd-2.0.6.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Lemur Editor.app/Contents/Frameworks/libusbmuxd-2.0.6.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Lemur Editor/exec/libusbmuxd-2.0.6.dylib"
+    },
+    {
+      "binary_name": "Lemur Editor",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Lemur Editor.app/Contents/MacOS/Lemur Editor",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Lemur Editor/exec/Lemur Editor"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Lemur Editor.app"
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "e22c6182",
+  "stage": "hashing",
+  "files_done": 24,
+  "files_total": 55,
+  "bytes_done": 105705993,
+  "bytes_total": 1774889669,
+  "elapsed_seconds": 9.548066854476929,
+  "current_file": "Contents/Frameworks/libswresample.3.dylib"
+}

@@ -5,21 +5,51 @@ __pycache__/
 dist/
 build/
 *.whl
+.venv/
+venv/
 
 # Tooling
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# Project-specific – never commit outputs
-targets/
+# -------------------------------------------------------
+# targets/ — track metadata only; ignore all generated,
+# binary, and machine-local content per target
+# -------------------------------------------------------
+
+# Per-target generated/binary subdirs (gitignored everywhere under targets/)
+targets/*/decompiled/
+targets/*/decompiled_real/
+targets/*/build/
+targets/*/cache/
+targets/*/exec/
+targets/*/bundle/
+targets/*/binary/
+targets/*/ghidra_projects/
+targets/*/.venv/
+targets/*/tools/.venv/
+
+# Per-target extracted asset content — all of assets/ is local-only
+# (includes legacy layouts like assets/images/, assets/strings/, etc.)
+targets/*/assets/**
+
+# Root-level source binaries (multi-GB, machine-local)
+SourceFiles/
+ghidra_projects/
+extracted/
+
+# Compiled / generated outputs
 *.log
 ghidra.log
-decompiled_real/
 *.jsonl
 *.dylib
 *.so
 *.dll
+*.o
+*.a
+*.zst
 
 # macOS
 .DS_Store
+**/.DS_Store

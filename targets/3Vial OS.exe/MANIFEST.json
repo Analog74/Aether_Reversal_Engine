@@ -1,0 +1,17 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/3Vial OS.exe",
+  "binaries": [
+    {
+      "binary_name": "3Vial OS.exe",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/3Vial OS.exe",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/3Vial OS.exe/exec/3Vial OS.exe",
+      "binary_details": {
+        "format": "PE",
+        "arch": "x64",
+        "endian": "LE",
+        "type": "EXE"
+      }
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/3Vial OS.exe"
+}

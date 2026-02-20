@@ -1,0 +1,11 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Reaktor 6",
+  "binaries": [
+    {
+      "binary_name": "Reaktor 6",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Reaktor 6/Reaktor 6.app/Contents/MacOS/Reaktor 6",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Reaktor 6/exec/Reaktor 6"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Reaktor 6"
+}

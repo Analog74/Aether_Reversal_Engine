@@ -1,0 +1,21 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Lemur Daemon",
+  "binaries": [
+    {
+      "binary_name": "libplist-2.0.3.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Lemur Daemon.app/Contents/Frameworks/libplist-2.0.3.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Lemur Daemon/exec/libplist-2.0.3.dylib"
+    },
+    {
+      "binary_name": "libusbmuxd-2.0.6.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Lemur Daemon.app/Contents/Frameworks/libusbmuxd-2.0.6.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Lemur Daemon/exec/libusbmuxd-2.0.6.dylib"
+    },
+    {
+      "binary_name": "Lemur Daemon",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Lemur Daemon.app/Contents/MacOS/Lemur Daemon",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Lemur Daemon/exec/Lemur Daemon"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Lemur Daemon.app"
+}

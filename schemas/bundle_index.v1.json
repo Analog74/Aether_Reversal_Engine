@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.local/schemas/bundle_index.v1.json",
+  "title": "BUNDLE_INDEX.json (v1)",
+  "type": "object",
+  "required": ["schema_version", "run_id", "files", "summary"],
+  "properties": {
+    "schema_version": {"type": "integer", "enum": [1]},
+    "run_id": {"type": "string"},
+    "bundle_root": {"type": "string"},
+    "bundle_root_realpath": {"type": "string"},
+    "started_at": {"type": "string", "format": "date-time"},
+    "ended_at": {"type": "string", "format": "date-time"},
+    "args": {"type": "object"},
+    "hash_algo_default": {"type": "string", "enum": ["blake3", "sha256"]},
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["relative_path", "size_bytes", "hash", "hash_algo", "hash_skipped", "kind"],
+        "properties": {
+          "relative_path": {"type": "string"},
+          "size_bytes": {"type": "integer", "minimum": 0},
+          "hash": {"type": "string"},
+          "hash_algo": {"type": "string"},
+          "hash_skipped": {"type": "boolean"},
+          "kind": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "summary": {"type": "object"}
+  },
+  "additionalProperties": true
+}

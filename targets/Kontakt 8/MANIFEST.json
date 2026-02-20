@@ -1,0 +1,13 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Kontakt 8",
+  "binaries": [
+    {
+      "binary_name": "Kontakt 8",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Kontakt 8.app/Contents/MacOS/Kontakt 8",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Kontakt 8/exec/Kontakt 8"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Kontakt 8.app",
+  "bundle_index_rel": "inventory/BUNDLE_INDEX.json",
+  "bundle_inventory_run_id": "bb3df4ee"
+}

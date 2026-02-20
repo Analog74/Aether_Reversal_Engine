@@ -1,0 +1,21 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Komplete Kontrol",
+  "binaries": [
+    {
+      "binary_name": "Komplete Kontrol",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Komplete Kontrol.app/Contents/MacOS/Komplete Kontrol",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Komplete Kontrol/exec/Komplete Kontrol"
+    },
+    {
+      "binary_name": "MaschineLibAVX.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Komplete Kontrol.app/Contents/PlugIns/MaschineLibAVX.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Komplete Kontrol/exec/MaschineLibAVX.dylib"
+    },
+    {
+      "binary_name": "MaschineLibAVX2.dylib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Komplete Kontrol.app/Contents/PlugIns/MaschineLibAVX2.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Komplete Kontrol/exec/MaschineLibAVX2.dylib"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Komplete Kontrol.app"
+}

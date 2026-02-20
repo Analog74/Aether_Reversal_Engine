@@ -1,0 +1,32 @@
+element,file,context,raw_expression,notes
+valueArea.baseX,renderValueArea.cpp,param_5==1,areaPos (used as iVar3),base x for value area
+valueArea.headerY,renderValueArea.cpp,param_5==1,local_48[1] = 0xe8,y for header text
+valueArea.valueBox.x,renderValueArea.cpp,param_5==1,areaPos + 0x60,drawRectangle X
+valueArea.valueBox.y,renderValueArea.cpp,param_5==1,0xd9,drawRectangle Y (raw)
+valueArea.valueBox.w,renderValueArea.cpp,param_5==1,0xe,drawRectangle width (raw)
+valueArea.valueBox.h,renderValueArea.cpp,param_5==1,0x32,drawRectangle height (raw)
+valueArea.textRight.x,renderValueArea.cpp,param_5==4,areaPos + 8,renderText X
+valueArea.textRight.y,renderValueArea.cpp,param_5==4,0xf2,renderText Y
+valueArea.textRight.x2,renderValueArea.cpp,param_5==4,areaPos + 0x66,renderText X2
+valueArea.default.textX,renderValueArea.cpp,default,areaPos + 0xd,renderText X
+valueArea.default.textY,renderValueArea.cpp,default,0xdd,renderText Y
+valueBox.gauge.wFormula,renderValueArea.cpp,param_5==2 or 3,ROUND(value * 66.0),gauge fill width formula
+valueBox.rect.x,renderValueArea.cpp,param_5==2,iVar2 + 0x14,rect x
+valueBox.rect.y,renderValueArea.cpp,param_5==2,0xfe,rect y (raw)
+valueBox.rect.w,renderValueArea.cpp,param_5==2,0x46,rect width (=70)
+valueBox.rect.h,renderValueArea.cpp,param_5==2,0xe,rect height (=14)
+pad.grid.xStride,renderPadsMatrix.cpp,grid,stride = param_2 * 0x40 (64),pad grid X stride
+pad.grid.yStride,renderPadsMatrix.cpp,grid,stride = param_3 * 0x10 (16),pad grid Y stride
+pad.rect.x,renderPadsMatrix.cpp,default,iVar2 = uVar4 + 1 (x offset),pad rect X offset
+pad.rect.y,renderPadsMatrix.cpp,default,iVar1 = uVar5 + 2 (y offset),pad rect Y offset
+pad.rect.w,renderPadsMatrix.cpp,default,0x3d (61),pad rect width
+pad.rect.h,renderPadsMatrix.cpp,default,0xd (13),pad rect height
+pad.rect.w_alt,renderPadsMatrix.cpp,default,uVar4 + 0x3e (x + 62),alternative computed x+62
+pad.rect.h_alt,renderPadsMatrix.cpp,default,uVar5 | 0xf (y OR 15),alternative y/height hint
+pad.render.putStretched.indexMap,renderPad.cpp,default,"color -> index: 0xff000000->5,0xff3a88ff->3,0xff776f6f->1,0xffffffff->2,0xffffd900->4",map colors to source sprite index
+pad.render.fallback,renderPad.cpp,default,renderRoundedBox,used for other colors
+pad.text.offsetX,renderPad.cpp,default,rect.x + 5,text X offset
+pad.text.offsetY,renderPad.cpp,default,rect.height - 5 (approx),text Y offset from bottom
+MCUDisplay.lineStride,copyAndSplitTextLineToDisplayBuffers.cpp,default,param_1 * 0x37 (55),per-line byte stride in display buffer
+MCUDisplay.lineChars,copyAndSplitTextLineToDisplayBuffers.cpp,default,0x1c (28),max chars per split line
+MCUDisplay.splitOffset,copyAndSplitTextLineToDisplayBuffers.cpp,default,0x1b (27),split offset used in logic

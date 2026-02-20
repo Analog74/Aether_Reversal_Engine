@@ -1,0 +1,26 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner",
+  "binaries": [
+    {
+      "binary_name": "ConfusionUtilFramework",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/ConfusionUtilFramework.framework/ConfusionUtilFramework",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner/exec/ConfusionUtilFramework"
+    },
+    {
+      "binary_name": "ObjectiveDropboxOfficial",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner/exec/ObjectiveDropboxOfficial"
+    },
+    {
+      "binary_name": "SimpleAlertLib",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/SimpleAlertLib.framework/SimpleAlertLib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner/exec/SimpleAlertLib"
+    },
+    {
+      "binary_name": "ProX",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/ProX",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner/exec/ProX"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app"
+}

@@ -1,0 +1,71 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio",
+  "binaries": [
+    {
+      "binary_name": "JavaNativeFoundation",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/JavaNativeFoundation",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/JavaNativeFoundation"
+    },
+    {
+      "binary_name": "libusb4java.dylib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/cp/org/usb4java/darwin-aarch64/libusb4java.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/libusb4java.dylib"
+    },
+    {
+      "binary_name": "libusb4java.dylib__1316e754",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/cp/org/usb4java/darwin-x86-64/libusb4java.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/libusb4java.dylib__1316e754"
+    },
+    {
+      "binary_name": "libLTO.dylib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/libLTO.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/libLTO.dylib"
+    },
+    {
+      "binary_name": "libRemarks.dylib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/libRemarks.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/libRemarks.dylib"
+    },
+    {
+      "binary_name": "libbitwig-jni.jnilib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/libbitwig-jni.jnilib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/libbitwig-jni.jnilib"
+    },
+    {
+      "binary_name": "libsqlitejdbc.jnilib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/Frameworks/libsqlitejdbc.jnilib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/libsqlitejdbc.jnilib"
+    },
+    {
+      "binary_name": "BitwigAudioEngine-ARM64-NEON",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/Bitwig Audio Engine ARM64-NEON.app/Contents/MacOS/BitwigAudioEngine-ARM64-NEON",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/BitwigAudioEngine-ARM64-NEON"
+    },
+    {
+      "binary_name": "BitwigAudioEngine-X64-AVX2",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/Bitwig Audio Engine X64-AVX2.app/Contents/MacOS/BitwigAudioEngine-X64-AVX2",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/BitwigAudioEngine-X64-AVX2"
+    },
+    {
+      "binary_name": "BitwigPluginHost-ARM64-NEON",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/Bitwig Plug-in Host ARM64-NEON.app/Contents/MacOS/BitwigPluginHost-ARM64-NEON",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/BitwigPluginHost-ARM64-NEON"
+    },
+    {
+      "binary_name": "BitwigPluginHost-X64-SSE41",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/Bitwig Plug-in Host X64-SSE41.app/Contents/MacOS/BitwigPluginHost-X64-SSE41",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/BitwigPluginHost-X64-SSE41"
+    },
+    {
+      "binary_name": "BitwigStudio",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/BitwigStudio",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/BitwigStudio"
+    },
+    {
+      "binary_name": "BitwigVampHost",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app/Contents/MacOS/BitwigVampHost",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio/exec/BitwigVampHost"
+    }
+  ],
+  "input": "/Volumes/Bitwig Studio 6.0 Beta 11 1/Bitwig Studio.app"
+}

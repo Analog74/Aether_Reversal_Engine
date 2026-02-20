@@ -1,0 +1,161 @@
+#include <ni/controller_editor/_unnamed_type_1_.hpp>
+namespace NI::NHL2::SERVER::ControllerDeviceProxy {
+
+void {unnamed type#1}::ControllerDeviceProxy() {
+unnamed type#1}::ControllerDeviceProxy() */
+
+void __thiscall
+NI::NHL2::SERVER::ControllerDeviceProxy::{unnamed_type#1}::ControllerDeviceProxy
+          (_unnamed_type_1_ *this)
+
+{
+  unsigned long long uVar1;
+  unsigned long long local_18;
+  
+  *(unsigned int *)this = 0;
+  local_18 = Timestamp::now();
+  MsgControllerChanged<NI::NHL2::SwitchEvent,128u>::MsgControllerChanged
+            ((MsgControllerChanged<NI::NHL2::SwitchEvent,128u> *)(this + 4),0x734e00,&local_18);
+  uVar1 = Timestamp::now();
+  *(unsigned long long *)(this + 0x424) = 0x10;
+  *(unsigned int *)(this + 0x42c) = 0x3654e00;
+  *(int *)(this + 0x430) = (int)((unsigned long)uVar1 >> 0x20);
+  *(int *)(this + 0x434) = (int)uVar1;
+  ___bzero(this + 0x43c,0x180);
+  *(unsigned int *)(this + 0x420) = 0x10;
+  *(unsigned int *)(this + 0x438) = 0;
+  uVar1 = Timestamp::now();
+  *(int *)(this + 0x5cc) = (int)((unsigned long)uVar1 >> 0x20);
+  *(int *)(this + 0x5d0) = (int)uVar1;
+  *(unsigned long long *)(this + 0x5d8) = 0;
+  *(unsigned long long *)(this + 0x5e0) = 0;
+  *(unsigned long long *)(this + 0x5e8) = 0;
+  *(unsigned long long *)(this + 0x5f0) = 0;
+  *(unsigned long long *)(this + 0x5f8) = 0;
+  *(unsigned long long *)(this + 0x600) = 0;
+  *(unsigned long long *)(this + 0x608) = 0;
+  *(unsigned long long *)(this + 0x610) = 0;
+  *(unsigned long long *)(this + 0x618) = 0;
+  *(unsigned long long *)(this + 0x620) = 0;
+  *(unsigned long long *)(this + 0x628) = 0;
+  *(unsigned long long *)(this + 0x630) = 0;
+  *(unsigned long long *)(this + 0x638) = 0;
+  *(unsigned long long *)(this + 0x640) = 0;
+  *(unsigned long long *)(this + 0x648) = 0;
+  *(unsigned long long *)(this + 0x650) = 0;
+  *(unsigned long long *)(this + 0x5bc) = 0x1000000010;
+  *(unsigned long long *)(this + 0x5c4) = 0x3774e0000000000;
+  *(unsigned int *)(this + 0x5d4) = 0;
+  uVar1 = Timestamp::now();
+  *(unsigned long long *)(this + 0x658) = 0x100000000c;
+  *(unsigned long long *)(this + 0x660) = 0x3504e0000000000;
+  *(int *)(this + 0x668) = (int)((unsigned long)uVar1 >> 0x20);
+  *(int *)(this + 0x66c) = (int)uVar1;
+  *(unsigned long long *)(this + 0x674) = 0x400000000;
+  *(unsigned long long *)(this + 0x67c) = 0;
+  *(unsigned long long *)(this + 0x684) = 4;
+  *(unsigned long long *)(this + 0x68c) = 0x400000000;
+  *(unsigned long long *)(this + 0x694) = 0;
+  *(unsigned long long *)(this + 0x69c) = 4;
+  *(unsigned long long *)(this + 0x6a4) = 0x400000000;
+  *(unsigned long long *)(this + 0x6ac) = 0;
+  *(unsigned long long *)(this + 0x6b4) = 4;
+  *(unsigned long long *)(this + 0x6bc) = 0x400000000;
+  *(unsigned long long *)(this + 0x6c4) = 0;
+  *(unsigned long long *)(this + 0x6cc) = 4;
+  *(unsigned long long *)(this + 0x6d4) = 0x400000000;
+  *(unsigned long long *)(this + 0x6dc) = 0;
+  *(unsigned long long *)(this + 0x6e4) = 4;
+  *(unsigned long long *)(this + 0x6ec) = 0x400000000;
+  *(unsigned long long *)(this + 0x6f4) = 0;
+  *(unsigned long long *)(this + 0x6fc) = 4;
+  *(unsigned long long *)(this + 0x704) = 0x400000000;
+  *(unsigned long long *)(this + 0x70c) = 0;
+  *(unsigned long long *)(this + 0x714) = 4;
+  *(unsigned long long *)(this + 0x71c) = 0x400000000;
+  *(unsigned long long *)(this + 0x724) = 0;
+  *(unsigned long long *)(this + 0x72c) = 4;
+  *(unsigned long long *)(this + 0x734) = 0x400000000;
+  *(unsigned long long *)(this + 0x73c) = 0;
+  *(unsigned long long *)(this + 0x744) = 4;
+  *(unsigned long long *)(this + 0x74c) = 0x400000000;
+  *(unsigned long long *)(this + 0x754) = 0;
+  *(unsigned long long *)(this + 0x75c) = 4;
+  *(unsigned long long *)(this + 0x764) = 0x400000000;
+  *(unsigned long long *)(this + 0x76c) = 0;
+  *(unsigned long long *)(this + 0x774) = 4;
+  *(unsigned long long *)(this + 0x77c) = 0x400000000;
+  *(unsigned long long *)(this + 0x784) = 0;
+  *(unsigned long long *)(this + 0x78c) = 4;
+  *(unsigned long long *)(this + 0x794) = 0x400000000;
+  *(unsigned long long *)(this + 0x79c) = 0;
+  *(unsigned long long *)(this + 0x7a4) = 4;
+  *(unsigned long long *)(this + 0x7ac) = 0x400000000;
+  *(unsigned long long *)(this + 0x7b4) = 0;
+  *(unsigned long long *)(this + 0x7bc) = 4;
+  *(unsigned long long *)(this + 0x7c4) = 0x400000000;
+  *(unsigned long long *)(this + 0x7cc) = 0;
+  *(unsigned long long *)(this + 0x7d4) = 4;
+  *(unsigned long long *)(this + 0x7dc) = 0x400000000;
+  *(unsigned long long *)(this + 0x7e4) = 0;
+  *(unsigned long long *)(this + 0x7ec) = 4;
+  *(unsigned int *)(this + 0x658) = 0x10;
+  *(unsigned int *)(this + 0x670) = 0;
+  uVar1 = Timestamp::now();
+  *(int *)(this + 0x804) = (int)((unsigned long)uVar1 >> 0x20);
+  *(int *)(this + 0x808) = (int)uVar1;
+  *(unsigned long long *)(this + 0x810) = 0;
+  *(unsigned long long *)(this + 0x818) = 0;
+  *(unsigned long long *)(this + 0x820) = 0;
+  *(unsigned long long *)(this + 0x828) = 0;
+  *(unsigned long long *)(this + 0x7f4) = 0x1000000010;
+  *(unsigned long long *)(this + 0x7fc) = 0x3704e0000000000;
+  *(unsigned int *)(this + 0x80c) = 0;
+  uVar1 = Timestamp::now();
+  *(int *)(this + 0x840) = (int)((unsigned long)uVar1 >> 0x20);
+  *(int *)(this + 0x844) = (int)uVar1;
+  *(unsigned long long *)(this + 0x84c) = 0;
+  *(unsigned long long *)(this + 0x854) = 0;
+  *(unsigned long long *)(this + 0x85c) = 0;
+  *(unsigned long long *)(this + 0x864) = 0;
+  *(unsigned long long *)(this + 0x86c) = 0;
+  *(unsigned long long *)(this + 0x874) = 0;
+  *(unsigned long long *)(this + 0x87c) = 0;
+  *(unsigned long long *)(this + 0x884) = 0;
+  *(unsigned long long *)(this + 0x88c) = 0;
+  *(unsigned long long *)(this + 0x894) = 0;
+  *(unsigned long long *)(this + 0x89c) = 0;
+  *(unsigned long long *)(this + 0x8a4) = 0;
+  *(unsigned long long *)(this + 0x8ac) = 0;
+  *(unsigned long long *)(this + 0x8b4) = 0;
+  *(unsigned long long *)(this + 0x8bc) = 0;
+  *(unsigned long long *)(this + 0x8c4) = 0;
+  *(unsigned long long *)(this + 0x830) = 0x1000000010;
+  *(unsigned long long *)(this + 0x838) = 0x36a4e0000000000;
+  *(unsigned int *)(this + 0x848) = 0;
+  uVar1 = Timestamp::now();
+  *(unsigned long long *)(this + 0x8d0) = 0x10;
+  *(unsigned int *)(this + 0x8d8) = 0x3744e00;
+  *(int *)(this + 0x8dc) = (int)((unsigned long)uVar1 >> 0x20);
+  *(int *)(this + 0x8e0) = (int)uVar1;
+  *(unsigned long long *)(this + 0x8e8) = 0;
+  *(unsigned int *)(this + 0x8f0) = 0;
+  *(unsigned long long *)(this + 0x908) = 0;
+  *(unsigned int *)(this + 0x910) = 0;
+  *(unsigned long long *)(this + 0x928) = 0;
+  *(unsigned int *)(this + 0x930) = 0;
+  *(unsigned long long *)(this + 0x948) = 0;
+  *(unsigned int *)(this + 0x950) = 0;
+  *(unsigned long long *)(this + 0x968) = 0;
+  *(unsigned int *)(this + 0x970) = 0;
+  *(unsigned int *)(this + 0x990) = 0;
+  *(unsigned long long *)(this + 0x988) = 0;
+  *(unsigned int *)(this + 0x9b0) = 0;
+  *(unsigned long long *)(this + 0x9a8) = 0;
+  *(unsigned int *)(this + 0x9d0) = 0;
+  *(unsigned long long *)(this + 0x9c8) = 0;
+  *(unsigned int *)(this + 0x8cc) = 0x10;
+  *(unsigned int *)(this + 0x8e4) = 0;
+  return;
+}
+}

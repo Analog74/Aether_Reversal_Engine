@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "binaries": [
+    {
+      "binary_name": "Logic Pro",
+      "binary_path": "bundle/Contents/MacOS/Logic Pro",
+      "exec_dir": "exec/Logic Pro"
+    }
+  ],
+  "input": "SourceFiles/Logic Pro.app",
+  "notes": "Ingested from user-provided SourceFiles/Logic Pro.app"
+}

@@ -1,0 +1,21 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Fugue Machine Rubato",
+  "binaries": [
+    {
+      "binary_name": "Fugue Machine Rubato",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Fugue Machine Rubato.app/Contents/MacOS/Fugue Machine Rubato",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Fugue Machine Rubato/exec/Fugue Machine Rubato"
+    },
+    {
+      "binary_name": "FugueMachineRubatoAU",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Fugue Machine Rubato.app/Contents/PlugIns/FugueMachineRubatoAU.appex/Contents/MacOS/FugueMachineRubatoAU",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Fugue Machine Rubato/exec/FugueMachineRubatoAU"
+    },
+    {
+      "binary_name": "FugueMachineRubatoQuickLookExtension",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Fugue Machine Rubato.app/Contents/PlugIns/FugueMachineRubatoQuickLookExtension.appex/Contents/MacOS/FugueMachineRubatoQuickLookExtension",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Fugue Machine Rubato/exec/FugueMachineRubatoQuickLookExtension"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/Fugue Machine Rubato.app"
+}

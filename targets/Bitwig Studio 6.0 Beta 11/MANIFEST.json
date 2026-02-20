@@ -1,0 +1,21 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio 6.0 Beta 11",
+  "binaries": [
+    {
+      "binary_name": "JavaNativeFoundation",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11/Bitwig Studio.app/Contents/Frameworks/JavaNativeFoundation",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio 6.0 Beta 11/exec/JavaNativeFoundation"
+    },
+    {
+      "binary_name": "libusb4java.dylib",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11/Bitwig Studio.app/Contents/Frameworks/cp/org/usb4java/darwin-aarch64/libusb4java.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio 6.0 Beta 11/exec/libusb4java.dylib"
+    },
+    {
+      "binary_name": "libusb4java.dylib__1316e754",
+      "binary_path": "/Volumes/Bitwig Studio 6.0 Beta 11/Bitwig Studio.app/Contents/Frameworks/cp/org/usb4java/darwin-x86-64/libusb4java.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/Bitwig Studio 6.0 Beta 11/exec/libusb4java.dylib__1316e754"
+    }
+  ],
+  "input": "/Volumes/Bitwig Studio 6.0 Beta 11/Bitwig Studio.app"
+}

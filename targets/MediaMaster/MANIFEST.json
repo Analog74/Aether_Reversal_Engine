@@ -1,0 +1,226 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster",
+  "binaries": [
+    {
+      "binary_name": "Cg",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/Cg.framework/Versions/1.0/Cg",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/Cg",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "unknown",
+        "endian": "LE",
+        "type": "UNKNOWN"
+      }
+    },
+    {
+      "binary_name": "KlingNetOutput.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/KlingNetOutput.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/KlingNetOutput.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "LEDMapperOutput.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/LEDMapperOutput.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/LEDMapperOutput.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "Syphon",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/Syphon.framework/Versions/A/Syphon",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/Syphon",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "unknown",
+        "endian": "LE",
+        "type": "UNKNOWN"
+      }
+    },
+    {
+      "binary_name": "VMIntegrationDLL.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/VMIntegrationDLL.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/VMIntegrationDLL.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "libavcodec.58.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavcodec.58.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libavcodec.58.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "libavdevice.58.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavdevice.58.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libavdevice.58.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "libavfilter.7.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavfilter.7.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libavfilter.7.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "libavformat.58.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavformat.58.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libavformat.58.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "libavutil.56.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libavutil.56.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libavutil.56.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "libfreeimage-3.17.0.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libfreeimage-3.17.0.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libfreeimage-3.17.0.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "unknown",
+        "endian": "LE",
+        "type": "UNKNOWN"
+      }
+    },
+    {
+      "binary_name": "libltc.11.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libltc.11.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libltc.11.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "unknown",
+        "endian": "LE",
+        "type": "UNKNOWN"
+      }
+    },
+    {
+      "binary_name": "libmcrypt.4.4.8.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libmcrypt.4.4.8.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libmcrypt.4.4.8.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "unknown",
+        "endian": "LE",
+        "type": "UNKNOWN"
+      }
+    },
+    {
+      "binary_name": "libndi.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libndi.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libndi.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "unknown",
+        "endian": "LE",
+        "type": "UNKNOWN"
+      }
+    },
+    {
+      "binary_name": "libswresample.3.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libswresample.3.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libswresample.3.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "libswscale.5.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libswscale.5.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libswscale.5.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "DYLIB"
+      }
+    },
+    {
+      "binary_name": "libturbojpeg.dylib",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/Frameworks/libturbojpeg.dylib",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/libturbojpeg.dylib",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "unknown",
+        "endian": "LE",
+        "type": "UNKNOWN"
+      }
+    },
+    {
+      "binary_name": "MediaMaster",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/MacOS/MediaMaster",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/MediaMaster",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "EXE"
+      }
+    },
+    {
+      "binary_name": "QuartzCLI",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/MacOS/QuartzCLI",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/QuartzCLI",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "EXE"
+      }
+    },
+    {
+      "binary_name": "crashpad_handler",
+      "binary_path": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app/Contents/MacOS/crashpad_handler",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MediaMaster/exec/crashpad_handler",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "EXE"
+      }
+    }
+  ],
+  "input": "/Volumes/MediaMaster/ArKaos_MediaMaster_6.1.3/MediaMaster.app"
+}

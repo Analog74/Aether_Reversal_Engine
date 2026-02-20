@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "binaries": [
+    {
+      "binary_name": "REAPER",
+      "binary_path": "bundle/Contents/MacOS/REAPER",
+      "exec_dir": "exec/REAPER"
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/REAPER.app",
+  "bundle_index_rel": "inventory/BUNDLE_INDEX.json",
+  "bundle_inventory_run_id": "33dbea08"
+}

@@ -1,0 +1,17 @@
+{
+  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MSTUpdater",
+  "binaries": [
+    {
+      "binary_name": "MSTUpdater",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MSTUpdater.app/Contents/MacOS/MSTUpdater",
+      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MSTUpdater/exec/MSTUpdater",
+      "binary_details": {
+        "format": "Mach-O",
+        "arch": "x86-64",
+        "endian": "LE",
+        "type": "EXE"
+      }
+    }
+  ],
+  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MSTUpdater.app"
+}

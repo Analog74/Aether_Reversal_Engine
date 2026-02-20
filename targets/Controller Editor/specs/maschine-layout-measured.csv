@@ -1,0 +1,23 @@
+element,x,y,w,h,source,notes
+pad_1,419,655,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_2,507,655,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_3,594,655,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_4,682,655,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_5,419,569,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_6,507,569,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_7,594,569,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_8,682,569,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_9,419,480,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_10,507,480,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_11,594,480,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_12,682,480,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_13,419,393,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_14,507,393,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_15,594,393,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+pad_16,682,393,60,57,MaschineStudio stylesheet / extracted ma_pad.png,from app bundle (authoritative)
+button_0,836,17,39,32,measured,auto-detected
+button_1,751,256,30,30,measured,auto-detected
+jog,61,266,236,236,MaschineStudio Hough detection/template measurement,from screenshot
+screen_0,469,290,146,200,MaschineStudio template match (embedded_54.png),from app bundle
+screen_1,679,453,133,134,measured,auto-detected
+transport,141,5,367,41,MaschineStudio template match (embedded_25.png),from app bundle

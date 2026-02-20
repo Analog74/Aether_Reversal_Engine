@@ -1,0 +1,5 @@
+#include <ni/format_handler_.hpp>
+namespace char * __stdcall do_parse_arg_id<char,fmt::v9::detail::parse_replacement_field<char,fmt::v9::detail::vformat_to<char>(fmt::v9::detail::buffer<char>&,fmt::v9::basic_string_view<char>,fmt::v9::basic_format_args<fmt::v9::basic_format_context<std::conditional<std::is_same<fmt::v9::type_identity<char>::type,char>::value,fmt::v9::appender,std::back_insert_iterator<fmt::v9::detail::buffer<fmt::v9::type_identity<char>::type>>>::type,fmt::v9::type_identity<char>::type>>,fmt::v9::detail::locale_ref)::format_handler&>(char_const*,char_const*,fmt::v9::detail::vformat_to<char>(fmt::v9::detail::buffer<char>&,fmt::v9::basic_string_view<char>,fmt::v9::basic_format_args<fmt::v9::basic_format_context<std::conditional<std::is_same<fmt::v9::type_identity<char>::type,char>::value,fmt::v9::appender,std::back_insert_iterator<fmt::v9::detail::buffer<fmt::v9::type_identity<char>::type>>>::type,fmt::v9::type_identity<char>::type>>,fmt::v9::detail::locale_ref) {
+// 1 methods belong to format_handler&)
+// Phase 2: Fill bodies via Frida tracing
+}
