@@ -17,14 +17,44 @@ def _safe_project_name(binary_path: Path) -> str:
     return f"proj_{base}_{h}"
 
 
+def _resolve_ghidra_path() -> Path:
+    """
+    Resolve installation path of Ghidra, preferring env var over local tools symlink.
+
+    Resolution order:
+      1. GHIDRA_HOME env var (preferred — set this in your shell profile)
+      2. factory/tools/ghidra symlink/dir relative to repo root (local override)
+
+    Returns:
+        Path to the Ghidra installation root (contains support/analyzeHeadless).
+
+    Side effects:
+        Raises ValueError with actionable message if Ghidra cannot be located.
+    """
+    ghidra_home_env = os.getenv("GHIDRA_HOME")
+    if ghidra_home_env:
+        p = Path(ghidra_home_env)
+        if p.exists():
+            return p
+        raise ValueError(f"GHIDRA_HOME is set but path does not exist: {p}")
+
+    _repo_root = Path(__file__).parents[2]
+    local_path = _repo_root / "factory" / "tools" / "ghidra"
+    if local_path.exists():
+        return local_path
+
+    raise ValueError(
+        "Ghidra not found. Set GHIDRA_HOME to your Ghidra installation directory, "
+        "e.g.:\n  export GHIDRA_HOME=/opt/homebrew/Cellar/ghidra/11.4.2/libexec\n"
+        "or run ensure_tools() to download it."
+    )
+
+
 def analyze_binary(binary_path, target_dir):
     binary_path = Path(binary_path)
     target_dir = Path(target_dir)
 
-    _repo_root = Path(__file__).parents[2]
-    ghidra_path = _repo_root / "factory" / "tools" / "ghidra"
-    if not ghidra_path.exists():
-        raise ValueError("Ghidra not found. Run ensure_tools() first.")
+    ghidra_path = _resolve_ghidra_path()
 
     decompiled_dir = target_dir / "decompiled_real"
     decompiled_dir.mkdir(parents=True, exist_ok=True)

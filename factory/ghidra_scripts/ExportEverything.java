@@ -1,4 +1,4 @@
-// ExportEverything.java — MAXIMUM ACCURACY 2025-11-25 (Fixed Vtable Detection)
+// ExportEverything.java — Ghidra 11.4.x compatible (explicit types, no var)
 import ghidra.app.script.GhidraScript;
 import ghidra.app.decompiler.*;
 import ghidra.program.model.listing.*;
@@ -13,15 +13,6 @@ public class ExportEverything extends GhidraScript {
         String out = getScriptArgs().length > 0 ? getScriptArgs()[0] : "decompiled_real";
 
         DecompileOptions opts = new DecompileOptions();
-        // Removed invalid methods; set defaults explicitly
-        // opts.setEliminateUnreachable(true);
-        // opts.setSimplifyExpressions(true);
-        // opts.setCreateStructs(true);
-        // opts.setCreateTypedefs(true);
-        // opts.setRTTIAnalysis(true);  // Enables RTTI/class recovery
-        // opts.setParamID(true);
-        // opts.setMaxPayload(0x100000);  // Limit for large binaries
-
         DecompInterface decomp = new DecompInterface();
         decomp.setOptions(opts);
         if (!decomp.openProgram(currentProgram)) {
@@ -40,21 +31,22 @@ public class ExportEverything extends GhidraScript {
                 if (!res.decompileCompleted()) continue;
 
                 String c = res.getDecompiledFunction().getC();
-                String name = f.getName(true);  // Demangled
+                String name = f.getName(true);  // fully qualified / demangled
                 if (name == null || name.isEmpty()) name = f.getName();
 
-                // FIXED Vtable detection — real Ghidra API
+                // Vtable detection via symbol table — explicit types (no var)
                 String vtableInfo = "NO";
                 try {
-                    var syms = currentProgram.getSymbolTable().getSymbols(f.getEntryPoint());
-                    for (var s : syms) {
-                        String n = s.getName();
-                        if (n.contains("vftable") || n.contains("RTTI") || n.contains("vtable")) {
+                    Symbol[] syms = currentProgram.getSymbolTable().getSymbols(f.getEntryPoint());
+                    for (Symbol s : syms) {
+                        String symName = s.getName();
+                        if (symName.contains("vftable") || symName.contains("RTTI") || symName.contains("vtable")) {
                             vtableInfo = "YES_" + s.getAddress();
                             break;
                         }
                     }
                 } catch (Exception ignored) {}
+
                 String meta = String.format("/* %s | Entry: %s | Vtable: %s */",
                     f.getSignature().getPrototypeString(true),
                     f.getEntryPoint(),
@@ -69,6 +61,6 @@ public class ExportEverything extends GhidraScript {
                 println("[-] Error decompiling " + f.getName() + ": " + e.getMessage());
             }
         }
-        println("[+] MAX-ACCURACY EXPORT COMPLETE – " + processed + " functions with RTTI + VTABLES + DEMANGLED");
+        println("[+] MAX-ACCURACY EXPORT COMPLETE -- " + processed + " functions with RTTI + VTABLES + DEMANGLED");
     }
 }

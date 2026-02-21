@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "nib_sidecar",
+  "description": "Structural analysis sidecar produced alongside each .nib file extracted by scripts/extract_mididesigner.py and related tools. Conforms to NIBArchive parser output from factory/core/nib_parser.py.",
+  "version": "1.0",
+  "type": "object",
+  "required": ["schema_version", "parser_version", "source_sha256", "format"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "description": "Schema version of this sidecar. Must be 1.",
+      "type": "integer",
+      "const": 1
+    },
+    "parser_version": {
+      "description": "Version of factory/core/nib_parser.py that produced this sidecar (e.g. '1.0').",
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "source_sha256": {
+      "description": "SHA-256 (lowercase hex) of the .nib binary that was parsed.",
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "format": {
+      "description": "Detected format of the .nib binary.",
+      "type": "string",
+      "enum": ["NIBArchive", "unknown", "unreadable"]
+    },
+    "version": {
+      "description": "NIBArchive format version read from the header (should be 1).",
+      "type": "integer",
+      "minimum": 0
+    },
+    "n_objects": {
+      "description": "Number of serialised objects declared in the header.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "n_keys": {
+      "description": "Number of property key strings declared in the header.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "n_values": {
+      "description": "Total number of encoded values declared in the header.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "class_names": {
+      "description": "UIKit/Foundation/Framework class names extracted via regex scan (UI*, NS*, AV*, CB*, etc.).",
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "key_names": {
+      "description": "UIKit/Foundation property key strings extracted via regex scan (UI*/NS* prefix, 7+ chars).",
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "outlet_names": {
+      "description": "camelCase outlet/ivar identifiers extracted via regex scan.",
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "error": {
+      "description": "Human-readable error message when parsing failed. Presence of this field indicates a parse failure; structural fields (n_objects, class_names, etc.) will be absent.",
+      "type": "string"
+    }
+  },
+  "if": {
+    "not": { "required": ["error"] }
+  },
+  "then": {
+    "required": ["version", "n_objects", "n_keys", "n_values", "class_names", "key_names", "outlet_names"]
+  }
+}

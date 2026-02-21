@@ -7,13 +7,23 @@ import zipfile
 from pathlib import Path
 
 def ensure_java():
-    java_home = "/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home"
-    if not Path(java_home).exists():
-        print("[-] OpenJDK 21 not found. Run: brew install openjdk@21")
-        exit(1)
-    os.environ["JAVA_HOME"] = java_home
-    os.environ["PATH"] = f"{java_home}/bin:{os.environ.get('PATH', '')}"
-    print(f"[+] Using Java 21: {java_home}")
+    # Prefer JAVA_HOME if already set in the environment
+    java_home = os.getenv("JAVA_HOME")
+    if java_home and Path(java_home).exists():
+        print(f"[+] Using Java from JAVA_HOME: {java_home}")
+        return
+
+    # Auto-discover via `java_home` helper (macOS)
+    result = subprocess.run(["/usr/libexec/java_home"], capture_output=True, text=True)
+    if result.returncode == 0:
+        java_home = result.stdout.strip()
+        os.environ["JAVA_HOME"] = java_home
+        os.environ["PATH"] = f"{java_home}/bin:{os.environ.get('PATH', '')}"
+        print(f"[+] Using Java: {java_home}")
+        return
+
+    print("[-] Java not found. Install via: brew install openjdk@21  or  brew install openjdk")
+    exit(1)
 
 def ensure_tools():
     ensure_java()  # ← THIS IS THE FIX

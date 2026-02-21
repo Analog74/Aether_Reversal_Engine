@@ -1,26 +1,51 @@
 {
-  "app_root": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner",
+  "schema_version": 1,
+  "app_name": "MIDIDesigner Pro",
+  "bundle_id": "com.jazzmutant.mididesigner",
+  "platform": "iOS",
+  "architecture": "arm64",
+  "extracted_at": "2026-02-21T00:15:36.097210+00:00",
+  "source": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app",
   "binaries": [
     {
+      "binary_name": "ProX",
+      "binary_path": "binary/ProX",
+      "exec_dir": "binary/analysis",
+      "string_count": 28962,
+      "symbol_count": 217137,
+      "objc_class_count": 1048
+    },
+    {
       "binary_name": "ConfusionUtilFramework",
-      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/ConfusionUtilFramework.framework/ConfusionUtilFramework",
-      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner/exec/ConfusionUtilFramework"
+      "binary_path": "frameworks/ConfusionUtilFramework/ConfusionUtilFramework",
+      "exec_dir": "frameworks/ConfusionUtilFramework/analysis",
+      "string_count": 4481,
+      "symbol_count": 9172,
+      "objc_class_count": 130
     },
     {
       "binary_name": "ObjectiveDropboxOfficial",
-      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial",
-      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner/exec/ObjectiveDropboxOfficial"
+      "binary_path": "frameworks/ObjectiveDropboxOfficial/ObjectiveDropboxOfficial",
+      "exec_dir": "frameworks/ObjectiveDropboxOfficial/analysis",
+      "string_count": 13160,
+      "symbol_count": 35402,
+      "objc_class_count": 1750
+    },
+    {
+      "binary_name": "Sentry",
+      "binary_path": "frameworks/Sentry/Sentry",
+      "exec_dir": "frameworks/Sentry/analysis",
+      "string_count": 0,
+      "symbol_count": 0,
+      "objc_class_count": 0
     },
     {
       "binary_name": "SimpleAlertLib",
-      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/SimpleAlertLib.framework/SimpleAlertLib",
-      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner/exec/SimpleAlertLib"
-    },
-    {
-      "binary_name": "ProX",
-      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/ProX",
-      "exec_dir": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/targets/MIDIDesigner/exec/ProX"
+      "binary_path": "frameworks/SimpleAlertLib/SimpleAlertLib",
+      "exec_dir": "frameworks/SimpleAlertLib/analysis",
+      "string_count": 446,
+      "symbol_count": 926,
+      "objc_class_count": 2
     }
-  ],
-  "input": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/MIDIDesigner.app"
+  ]
 }

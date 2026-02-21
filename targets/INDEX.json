@@ -543,37 +543,46 @@
     },
     {
       "target": "MIDIDesigner",
+      "binary_name": "ProX",
+      "binary_path": "binary/ProX",
+      "exec_dir": "binary/analysis",
+      "decompiled_cpp": 0,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDIDesigner",
       "binary_name": "ConfusionUtilFramework",
-      "binary_path": "SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/ConfusionUtilFramework.framework/ConfusionUtilFramework",
-      "exec_dir": "targets/MIDIDesigner/exec/ConfusionUtilFramework",
-      "decompiled_cpp": 5723,
+      "binary_path": "frameworks/ConfusionUtilFramework/ConfusionUtilFramework",
+      "exec_dir": "frameworks/ConfusionUtilFramework/analysis",
+      "decompiled_cpp": 0,
       "has_reports": true,
       "has_assets": true
     },
     {
       "target": "MIDIDesigner",
       "binary_name": "ObjectiveDropboxOfficial",
-      "binary_path": "SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/ObjectiveDropboxOfficial.framework/ObjectiveDropboxOfficial",
-      "exec_dir": "targets/MIDIDesigner/exec/ObjectiveDropboxOfficial",
-      "decompiled_cpp": 20479,
+      "binary_path": "frameworks/ObjectiveDropboxOfficial/ObjectiveDropboxOfficial",
+      "exec_dir": "frameworks/ObjectiveDropboxOfficial/analysis",
+      "decompiled_cpp": 0,
+      "has_reports": true,
+      "has_assets": true
+    },
+    {
+      "target": "MIDIDesigner",
+      "binary_name": "Sentry",
+      "binary_path": "frameworks/Sentry/Sentry",
+      "exec_dir": "frameworks/Sentry/analysis",
+      "decompiled_cpp": 0,
       "has_reports": true,
       "has_assets": true
     },
     {
       "target": "MIDIDesigner",
       "binary_name": "SimpleAlertLib",
-      "binary_path": "SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/Frameworks/SimpleAlertLib.framework/SimpleAlertLib",
-      "exec_dir": "targets/MIDIDesigner/exec/SimpleAlertLib",
-      "decompiled_cpp": 540,
-      "has_reports": true,
-      "has_assets": true
-    },
-    {
-      "target": "MIDIDesigner",
-      "binary_name": "ProX",
-      "binary_path": "SourceFiles/MIDIDesigner.app/Wrapper/ProX.app/ProX",
-      "exec_dir": "targets/MIDIDesigner/exec/ProX",
-      "decompiled_cpp": 27613,
+      "binary_path": "frameworks/SimpleAlertLib/SimpleAlertLib",
+      "exec_dir": "frameworks/SimpleAlertLib/analysis",
+      "decompiled_cpp": 0,
       "has_reports": true,
       "has_assets": true
     },
@@ -787,8 +796,8 @@
     {
       "target": "TouchOSC",
       "binary_name": "Autoupdate",
-      "binary_path": "SourceFiles/TouchOSC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate",
-      "exec_dir": "targets/TouchOSC/exec/Autoupdate",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/TouchOSC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate",
+      "exec_dir": "exec/Autoupdate",
       "decompiled_cpp": 424,
       "has_reports": true,
       "has_assets": true
@@ -796,8 +805,8 @@
     {
       "target": "TouchOSC",
       "binary_name": "fileop",
-      "binary_path": "SourceFiles/TouchOSC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop",
-      "exec_dir": "targets/TouchOSC/exec/fileop",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/TouchOSC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/fileop",
+      "exec_dir": "exec/fileop",
       "decompiled_cpp": 197,
       "has_reports": true,
       "has_assets": true
@@ -805,8 +814,8 @@
     {
       "target": "TouchOSC",
       "binary_name": "Sparkle",
-      "binary_path": "SourceFiles/TouchOSC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle",
-      "exec_dir": "targets/TouchOSC/exec/Sparkle",
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/TouchOSC.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle",
+      "exec_dir": "exec/Sparkle",
       "decompiled_cpp": 1052,
       "has_reports": true,
       "has_assets": true
@@ -814,9 +823,9 @@
     {
       "target": "TouchOSC",
       "binary_name": "TouchOSC",
-      "binary_path": "SourceFiles/TouchOSC.app/Contents/MacOS/TouchOSC",
-      "exec_dir": "targets/TouchOSC/exec/TouchOSC",
-      "decompiled_cpp": 30524,
+      "binary_path": "/Volumes/Samples/_Projects/NI_BINARIES_DECOMP/Aether_Reversal_Engine/SourceFiles/TouchOSC.app/Contents/MacOS/TouchOSC",
+      "exec_dir": "exec/TouchOSC",
+      "decompiled_cpp": 30569,
       "has_reports": true,
       "has_assets": true
     },
