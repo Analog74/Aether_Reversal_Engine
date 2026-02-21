@@ -11,3 +11,10 @@ blake3>=0.3
 
 # JSON Schema validation for ingestion pipeline + CI checks
 jsonschema>=4.0
+
+# Texture reconstruction pipeline (scripts/reconstruct_textures.py)
+Pillow>=10.0
+
+# Dynamic texture hook via Frida (capture/frida_texture_hook.py)
+frida>=16.0
+frida-tools>=12.0

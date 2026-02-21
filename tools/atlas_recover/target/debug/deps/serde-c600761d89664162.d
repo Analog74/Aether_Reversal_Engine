@@ -1,0 +1,14 @@
+/Volumes/Samples/_Projects/Aether_Reversal_Engine/tools/atlas_recover/target/debug/deps/serde-c600761d89664162.d: /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Volumes/Samples/_Projects/Aether_Reversal_Engine/tools/atlas_recover/target/debug/build/serde-18cbe8bc7bb9b138/out/private.rs
+
+/Volumes/Samples/_Projects/Aether_Reversal_Engine/tools/atlas_recover/target/debug/deps/libserde-c600761d89664162.rlib: /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Volumes/Samples/_Projects/Aether_Reversal_Engine/tools/atlas_recover/target/debug/build/serde-18cbe8bc7bb9b138/out/private.rs
+
+/Volumes/Samples/_Projects/Aether_Reversal_Engine/tools/atlas_recover/target/debug/deps/libserde-c600761d89664162.rmeta: /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Volumes/Samples/_Projects/Aether_Reversal_Engine/tools/atlas_recover/target/debug/build/serde-18cbe8bc7bb9b138/out/private.rs
+
+/Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/tp/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Volumes/Samples/_Projects/Aether_Reversal_Engine/tools/atlas_recover/target/debug/build/serde-18cbe8bc7bb9b138/out/private.rs:
+
+# env-dep:OUT_DIR=/Volumes/Samples/_Projects/Aether_Reversal_Engine/tools/atlas_recover/target/debug/build/serde-18cbe8bc7bb9b138/out
