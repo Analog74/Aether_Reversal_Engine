@@ -1,0 +1,97 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ── Python tests ─────────────────────────────────────────────────────────────
+  python-tests:
+    name: Python (pytest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+          # Install CI-safe requirements (skip frida — requires real process + kernel)
+          grep -v '^frida' requirements.txt | python -m pip install -r /dev/stdin
+
+      - name: Lint (ruff)
+        run: ruff check .
+
+      - name: Run pytest
+        run: pytest -q
+
+  # ── Rust: atlas_recover (cargo test) ─────────────────────────────────────────
+  rust-atlas-recover:
+    name: Rust atlas_recover (cargo test)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install stable Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+
+      - name: Cache cargo registry + build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            tools/atlas_recover/target
+          key: rust-${{ runner.os }}-${{ hashFiles('tools/atlas_recover/Cargo.lock') }}
+          restore-keys: |
+            rust-${{ runner.os }}-
+
+      - name: cargo clippy (no warnings)
+        working-directory: tools/atlas_recover
+        run: cargo clippy --all-targets -- -D warnings
+
+      - name: cargo test
+        working-directory: tools/atlas_recover
+        run: cargo test
+
+  # ── Rust: benchmarks (manual or scheduled only) ───────────────────────────────
+  rust-bench:
+    name: Rust atlas_recover (cargo bench)
+    runs-on: ubuntu-latest
+    # Only run on workflow_dispatch or the nightly schedule — never on every PR.
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install stable Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            tools/atlas_recover/target
+          key: rust-bench-${{ runner.os }}-${{ hashFiles('tools/atlas_recover/Cargo.lock') }}
+
+      - name: cargo bench (smoke — single iteration)
+        working-directory: tools/atlas_recover
+        # --profile-time 1 keeps wall-clock reasonable in CI; actual regression
+        # analysis happens locally or via scheduled runs with full --profile-time.
+        run: cargo bench -- --profile-time 1
+
+# ── Scheduled nightly bench ───────────────────────────────────────────────────
+# Uncomment to enable nightly benchmark runs:
+# on:
+#   schedule:
+#     - cron: "0 2 * * *"   # 02:00 UTC daily

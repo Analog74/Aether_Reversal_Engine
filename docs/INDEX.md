@@ -45,6 +45,21 @@ This is the navigation entrypoint for protocol and architecture docs.
 - Factory rules: `docs/FACTORY_RULES.md`
 - Target template: `docs/TARGET_TEMPLATE.md`
 
+## Texture Recovery Pipeline
+
+- Pipeline overview, JSON schemas, parity gate: `docs/texture_pipeline.md`
+  - Stage A (`ExtractTextureAtlas.java`): `texture_atlas.json` schema
+  - Stage B (`tools/atlas_recover`, `scripts/reconstruct_textures.py`): `reconstruction_report.json` schema
+  - Fixture contract (`fixtures/manifest.json`): golden-hash parity format
+  - Parity gate: `scripts/check_texture_parity.py`
+
+## CI
+
+- Workflow: `.github/workflows/ci.yml`
+  - `python-tests` — pytest on every push/PR
+  - `rust-atlas-recover` — `cargo test` + `cargo clippy` on every push/PR
+  - `rust-bench` — `cargo bench` on `workflow_dispatch` or schedule only
+
 ## Templates
 
 - Templates overview + charts: `docs/TEMPLATES_OVERVIEW.md`

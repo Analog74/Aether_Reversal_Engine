@@ -172,18 +172,50 @@ Heartbeat output goes to stderr (unaffected by stdout pipes). Status files are w
 aether-re/
 ├── analysis/          # Call graph and static analysis
 ├── bin/               # CLI entry points (thin wrappers over core engines)
-├── capture/           # Dynamic tracing utilities (placeholder)
+├── capture/           # Dynamic tracing utilities (Frida hooks)
 ├── cli/               # Terminal UI helpers (Rich-based)
 ├── dynamic_headers/   # Objective-C/system header stubs for Ghidra
 ├── factory/
 │   ├── core/          # All core engines and progress infrastructure
-│   └── ghidra_scripts/# ExportEverything.java — Ghidra post-script
+│   └── ghidra_scripts/# ExportEverything.java, ExtractTextureAtlas.java
 ├── fixup/             # Decompilation post-processors
 ├── schemas/           # JSON schemas for MANIFEST.json, BUNDLE_INDEX.json, etc.
 ├── scripts/           # Standalone analysis and utility scripts
 ├── targets/           # Per-target workspaces (mostly gitignored)
-└── tests/             # pytest test suite
+├── tests/             # pytest test suite
+└── tools/
+    └── atlas_recover/ # Stage B Rust CLI: raw texture reconstructor
 ```
+
+---
+
+## Texture Recovery Pipeline
+
+For binaries that store images as raw pixel arrays in GPU texture atlases
+(no file-magic headers — `binwalk` cannot carve them), a two-stage pipeline
+recovers the images via Ghidra static analysis + Rust reconstruction.
+
+```
+Binary + Ghidra project
+      ↓
+[Stage A] factory/ghidra_scripts/ExtractTextureAtlas.java
+          → targets/<T>/textures/texture_atlas.json
+      ↓
+[Stage B] tools/atlas_recover  (Rust, production)
+   or   scripts/reconstruct_textures.py (Python, reference + fixture generator)
+          → targets/<T>/textures/images/*.png
+          → targets/<T>/textures/reconstruction_report.json
+          → targets/<T>/textures/contact_sheet.png
+```
+
+**Dynamic fallback:** `capture/frida_texture_hook.py` hooks `AddRegion` at runtime to
+validate static results and recover callsites that static analysis could not fully
+resolve.
+
+**Parity gate:** `scripts/check_texture_parity.py` compares Rust output against
+Python-generated golden fixtures (SHA-256 of each reconstructed PNG).
+
+Full schema documentation: `docs/texture_pipeline.md`
 
 
 ## Core Components
